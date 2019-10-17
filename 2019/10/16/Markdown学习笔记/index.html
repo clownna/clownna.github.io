@@ -15,10 +15,14 @@
 <meta property="og:site_name" content="Clownna">
 <meta property="og:description" content="1. 简单介绍 Markdown 是一种轻量级标记语言。 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。 Markdown 文档后缀名： .md或者 .markdown。 编辑器：可选择Typora （包含多种主题，编辑后直接渲染出效果。支持导出HTML、PDF、Word、图片等多种类型文件。）   2. Markdown语法2.1. Ma">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-17T13:07:58.547Z">
+<meta property="og:image" content="http://yoursite.com/assets/img/table1.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/table2.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/html.png">
+<meta property="og:updated_time" content="2019-10-17T14:29:19.189Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown学习笔记">
 <meta name="twitter:description" content="1. 简单介绍 Markdown 是一种轻量级标记语言。 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。 Markdown 文档后缀名： .md或者 .markdown。 编辑器：可选择Typora （包含多种主题，编辑后直接渲染出效果。支持导出HTML、PDF、Word、图片等多种类型文件。）   2. Markdown语法2.1. Ma">
+<meta name="twitter:image" content="http://yoursite.com/assets/img/table1.png">
   
     <link rel="alternative" href="/atom.xml" title="Clownna" type="application/atom+xml">
   
@@ -193,7 +197,7 @@
 <hr>
 <h2 id="2-5-Markdown-删除线"><a href="#2-5-Markdown-删除线" class="headerlink" title="2.5. Markdown 删除线"></a>2.5. Markdown 删除线</h2><p>删除线： 在文字的两端加上 ~~</p>
 <hr>
-<h2 id="2-6-Markdown-下划线"><a href="#2-6-Markdown-下划线" class="headerlink" title="2.6. Markdown 下划线"></a>2.6. Markdown 下划线</h2><p>下划线： 通过 HTML 的 u 标签来实现，写法与HTML一样</p>
+<h2 id="2-6-Markdown-下划线"><a href="#2-6-Markdown-下划线" class="headerlink" title="2.6. Markdown 下划线"></a>2.6. Markdown 下划线</h2><p>下划线： 通过 HTML 的 &lt;u&gt; 标签来实现，写法与HTML一样。</p>
 <hr>
 <h2 id="2-7-Markdown-脚注"><a href="#2-7-Markdown-脚注" class="headerlink" title="2.7. Markdown 脚注"></a>2.7. Markdown 脚注</h2><p>格式： [^RUNOOB]：脚注是对文本的补充说明。</p>
 <hr>
@@ -241,11 +245,31 @@
 <hr>
 <h2 id="2-12-Markdown-图片"><a href="#2-12-Markdown-图片" class="headerlink" title="2.12. Markdown 图片"></a>2.12. Markdown 图片</h2><ul>
 <li>开头一个感叹号 !</li>
-<li>接着一个方括号，里面放上图片的替代文字</li>
-<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的 文字。</li>
+<li>接着一个方括号，里面放上alt属性文本</li>
+<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 title 属性的 文字。</li>
 <li>也可以像链接那样对图片网址使用变量</li>
 </ul>
-<p><strong>（Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 img 标签。写法与HTML一样。）</strong></p>
+<p><strong>（Markdown 还没有办法指定图片的高度与宽度，如果需要的话，可以使用普通的&lt; img&gt; 标签。写法与HTML一样。）</strong></p>
+<hr>
+<h2 id="2-13-Markdown-表格"><a href="#2-13-Markdown-表格" class="headerlink" title="2.13. Markdown 表格"></a>2.13. Markdown 表格</h2><ul>
+<li>制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行</li>
+<li>设置表格的对齐方式：<ul>
+<li>-: 设置内容和标题栏居右对齐</li>
+<li>:- 设置内容和标题栏居左对齐</li>
+<li>:-: 设置内容和标题栏居中对齐</li>
+</ul>
+</li>
+</ul>
+<p><strong>示例：</strong><br><img src="/assets/img/table1.png" alt="源代码" title="源代码"><br><img src="/assets/img/table2.png" alt="效果图" title="效果图"></p>
+<hr>
+<h1 id="3-Markdown-高级技巧"><a href="#3-Markdown-高级技巧" class="headerlink" title="3.Markdown 高级技巧"></a>3.Markdown 高级技巧</h1><h2 id="3-1-支持的-HTML-元素"><a href="#3-1-支持的-HTML-元素" class="headerlink" title="3.1. 支持的 HTML 元素"></a>3.1. 支持的 HTML 元素</h2><ul>
+<li>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写</li>
+<li>目前支持的 HTML 元素有：<img src="/assets/img/html.png" alt="html标签" title="html标签">等</li>
+</ul>
+<hr>
+<h2 id="3-2-转义字符"><a href="#3-2-转义字符" class="headerlink" title="3.2. 转义字符"></a>3.2. 转义字符</h2><p>在特殊字符前加上反斜杠( \ )，进行转义。</p>
+<hr>
+<p><strong>扩展：</strong></p>
 <blockquote>
 <p><strong>使用vscode编写markdown的插件：</strong><br>Markdown Preview Enhanced:可以更加形象的展示所编写文档的pdf格式；<br>Markdown TOC:自动插入目录，排序；<br>Maridown PDF:将.md文件转换成其他格式(在编写.md文件的工作区直接右键即可看到由Maridown pdf插件产生的功能项，选择需要转换的格式即可生成需要的文件，生成的文件将会直接保存在.md的文件目录下。)</p>
 </blockquote>
