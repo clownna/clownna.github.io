@@ -484,6 +484,22 @@ test();
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2019/10/16/Markdown学习笔记/",
+  owner: 'clownna',
+  repo: 'clownna.github.io',
+  oauth: {
+    client_id: 'a18b4b021b17b5550034',
+    client_secret: 'bfccd9e5bcc60e97d3d9ade0c3104011aea10973',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
