@@ -9,7 +9,7 @@
   <title>HTML学习笔记 | Clownna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="前言：^ _ ^ 整理一下以前乱七八糟的笔记哈哈，以后要查找浏览就方便多啦~  ^ _ ^  1. 简单介绍：">
-<meta name="keywords" content="笔记,学习,HTML">
+<meta name="keywords" content="HTML,笔记,学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HTML学习笔记">
 <meta property="og:url" content="http://yoursite.com/2019/10/27/HTML学习笔记/index.html">
@@ -23,7 +23,10 @@
 <meta property="og:image" content="http://yoursite.com/assets/img/zy2.png">
 <meta property="og:image" content="http://yoursite.com/assets/img/lb1.png">
 <meta property="og:image" content="http://yoursite.com/assets/img/lb2.png">
-<meta property="og:updated_time" content="2019-11-03T11:36:01.576Z">
+<meta property="og:image" content="http://yoursite.com/assets/img/p_auto.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/p_meta.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/p_none.png">
+<meta property="og:updated_time" content="2019-11-10T13:39:47.400Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTML学习笔记">
 <meta name="twitter:description" content="前言：^ _ ^ 整理一下以前乱七八糟的笔记哈哈，以后要查找浏览就方便多啦~  ^ _ ^  1. 简单介绍：">
@@ -246,6 +249,7 @@
 <li>双标记： &lt;标记&gt;内容&lt;/标记&gt;，成对出现，分为始标记和尾标记，中间添加内容；</li>
 <li>标记可以成对嵌套，不可以交叉嵌套；</li>
 </ul>
+<hr>
 <h2 id="3-2-HTML属性："><a href="#3-2-HTML属性：" class="headerlink" title="3.2. HTML属性："></a>3.2. HTML属性：</h2><ul>
 <li>属性是对标记的必要说明，一般要为属性赋值；</li>
 <li>属性均放在相应标记的尖括号内，属性之间用空格隔开；</li>
@@ -382,7 +386,8 @@
 </ul>
 </li>
 </ul>
-<h2 id="3-4-文字与段落："><a href="#3-4-文字与段落：" class="headerlink" title="3.4 文字与段落："></a>3.4 文字与段落：</h2><ul>
+<hr>
+<h1 id="4-文字与段落："><a href="#4-文字与段落：" class="headerlink" title="4.  文字与段落："></a>4.  文字与段落：</h1><ul>
 <li>空格：&amp;nbsp; 一个&amp;nbsp;占用一个英文字符的位置。</li>
 </ul>
 <blockquote>
@@ -485,7 +490,134 @@
 </ul>
 </blockquote>
 <hr>
-<h2 id="3-5"><a href="#3-5" class="headerlink" title="3.5"></a>3.5</h2><hr>
+<h1 id="5-网页多媒体元素："><a href="#5-网页多媒体元素：" class="headerlink" title="5.  网页多媒体元素："></a>5.  网页多媒体元素：</h1><p>HTML5新增了元素&lt;video&gt;，&lt;audio&gt;，&lt;embed&gt;，&lt;figure&gt;和&lt;figcation&gt;，改变了以外在网页中插入多媒体元素需要第三方控件的局面。</p>
+<hr>
+<h2 id="5-1-图像-lt-img-gt"><a href="#5-1-图像-lt-img-gt" class="headerlink" title="5.1 图像&lt;img&gt;:"></a>5.1 图像&lt;img&gt;:</h2><ul>
+<li><p>&lt;img&gt;：为被引用的图像创建占位符；</p>
+</li>
+<li><p>支持格式：JPEG（JPG）,GIF（支持动画和背景色透明）,PNG（支持背景透明）等</p>
+<ul>
+<li>GIF，PNG占位储存空间较小，但GIF图片色彩质量受限，PNG在网页设计中最广泛使用</li>
+</ul>
+</li>
+<li><p>src：图像资源属性</p>
+<ul>
+<li>基本语法：<code>&lt;img src=&quot;url&quot;&gt;</code></li>
+<li>url：指明网页中要引用图像的位置，也就是引用图像文件的相对路径或绝对路径；<blockquote>
+<p>绝对路径：指向另一个网站的网址<br>相对路径 ：指向网站内的一个文件（相对于网页文件的路径）</p>
+<blockquote>
+<p> 同一目录：输入图像全名<br> 上一目录：../表示向上一级目录<br> 下一目录：/表示向下一级目录</p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>alt：图像替代文本（当图像失效显示或鼠标滑过显示）</p>
+</li>
+<li><p>width和height：图像的宽高（像素|百分百）</p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>设置这些属性，是为了在页面加载时会为其预留出空间（布局）。</li>
+<li>但不能用于缩放，正确做法是在网页使用图像之前，先处理好图像。</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="5-2-视频-lt-video-gt"><a href="#5-2-视频-lt-video-gt" class="headerlink" title="5.2 视频&lt;video&gt;:"></a>5.2 视频&lt;video&gt;:</h2><ul>
+<li><p>支持格式：MP4（最常用，适用性较强）,OGG,WEBM</p>
+</li>
+<li><p>src：同上&lt;img&gt;</p>
+</li>
+<li><p>controls：视频播放控件属性，是否为视频添加浏览器自带的播放控制条（播放按钮，播放进度，播放音量等控件）</p>
+</li>
+<li><p>autoplay：视频在加载就绪后自动播放（使用此属性则忽略preload属性）</p>
+</li>
+<li><p>preload：视频准备播放控件，在页面加载时就加载视频，并且准备播放，三个属性值：</p>
+<ul>
+<li>auto：当页面加载后加入整个视频</li>
+<li>metadata：当页面加载后只加载媒体的元数据</li>
+<li>none：当页面加载后不载入视频<br>效果区别：<br><img src="/assets/img/p_auto.png" alt="属性值为auto效果" title="属性值为auto效果"><img src="/assets/img/p_meta.png" alt="属性值为meta效果" title="属性值为meta效果"><img src="/assets/img/p_none.png" alt="属性值为none效果" title="属性值为none效果"></li>
+</ul>
+</li>
+<li><p>loop：循环播放</p>
+</li>
+<li><p>muted：视频的音频输出为静音</p>
+</li>
+<li><p>poster：视频珈载时显示的图像，或者在用户点击播放按钮前显示的图像</p>
+</li>
+<li><p>width：视频宽度； height：视频高度；属性值：像素</p>
+</li>
+<li><p>基本语法：<code>&lt;video src=&quot;url&quot; controls=&quot;controls&quot;  autoplay=&quot;autoplay&quot;  loop=&quot;loop&quot; muted=&quot;muted&quot; poster=&quot;url&quot;&gt;...&lt;/video&gt;</code></p>
+</li>
+</ul>
+<hr>
+<h2 id="5-3-音频-lt-audio-gt"><a href="#5-3-音频-lt-audio-gt" class="headerlink" title="5.3 音频&lt;audio&gt;:"></a>5.3 音频&lt;audio&gt;:</h2><ul>
+<li>支持格式：MP3（最常用，适用性较强）,OGG,WAV,AAC</li>
+<li>属性与&lt;video&gt;基本相同，少了width,height,poster</li>
+</ul>
+<hr>
+<h2 id="5-4-lt-source-gt"><a href="#5-4-lt-source-gt" class="headerlink" title="5.4 &lt;source&gt;"></a>5.4 &lt;source&gt;</h2><ul>
+<li>source的作用就是为媒介元素（如&lt;video&gt;,&lt;audio&gt;）定义媒介资源</li>
+<li>媒介元素可以指定多个source元素，按顺序检测是否可以播放</li>
+<li>用于兼容不同的浏览器</li>
+<li>属性：<ul>
+<li>src： 规定媒体文件的 URL</li>
+<li>type：规定媒体资源的 MIME 类型</li>
+<li>media：规定媒体资源的类型，供浏览器决定是否下载</li>
+</ul>
+</li>
+</ul>
+<p>基本语法示例：<br>    <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span>&gt;</span></span><br><span class="line"> 	<span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"url"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span> /&gt;</span></span><br><span class="line"> 	<span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"url"</span> <span class="attr">type</span>=<span class="string">"video/ogg"</span> /&gt;</span></span><br><span class="line"> 	您的浏览器不支持 video 元素。</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<ul>
+<li>几乎所有的主流浏览器都不支持 source–&gt;media 属性。</li>
+<li>MIME 类型：描述并标记多媒体内容。</li>
+<li>Web 服务器会为所有 HTTP 对象数据附加一个 MIME 类型。当 Web 浏览器从服务器中取回一个对象时，会去查看相关的 MIME 类型，看看它是否知道 应该如何处理这个对象。<a href="https://www.jianshu.com/p/b6dad0db5e48" target="_blank" rel="noopener">来源</a></li>
+<li>MIME 类型是一种文本标记，表示一种主要的对象类型和一个特定的子类型，中间<br>由一条斜杠来分隔。具体参考：<a href="https://www.w3school.com.cn/media/media_mimeref.asp" target="_blank" rel="noopener">MIME 参考手册</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="5-5-多媒体文件-lt-embed-gt"><a href="#5-5-多媒体文件-lt-embed-gt" class="headerlink" title="5.5 多媒体文件&lt;embed&gt;"></a>5.5 多媒体文件&lt;embed&gt;</h2><ul>
+<li>&lt;embed&gt;元素可以插入多种格式的多媒体文件（效果：新建下载任务）</li>
+<li>属性：src（url），width,height（宽高），type（ MIME 类型）</li>
+<li>一般用于插入flash（.swf）动画：<code>&lt;embed src=&quot;xxx.swf&quot; width=&quot; &quot; height=&quot; &quot;/&gt;</code></li>
+</ul>
+<hr>
+<h2 id="5-6-对象-lt-object-gt"><a href="#5-6-对象-lt-object-gt" class="headerlink" title="5.6 对象&lt;object&gt;"></a>5.6 对象&lt;object&gt;</h2><ul>
+<li>支持多种不同的媒介类型</li>
+<li>data属性：规定对象使用的资源的 URL</li>
+<li>type属性：规定其MIME 类型</li>
+<li>form属性：属性值form_id，规定对象所属的一个或多个表单</li>
+<li>name属性：为对象规定名称</li>
+<li>width，height属性：规定对象的宽高</li>
+<li>可在页面中嵌入一个网页：<code>&lt;object type=&quot;text/html&quot; data=&quot;url&quot; width=&quot; &quot; height=&quot; &quot;&gt;&lt;/object&gt;</code></li>
+</ul>
+<hr>
+<h2 id="5-7-媒介分组和标题-lt-figure-gt-lt-figcation-gt"><a href="#5-7-媒介分组和标题-lt-figure-gt-lt-figcation-gt" class="headerlink" title="5.7 媒介分组和标题&lt;figure&gt;/&lt;figcation&gt;"></a>5.7 媒介分组和标题&lt;figure&gt;/&lt;figcation&gt;</h2><ul>
+<li>&lt;figure&gt;<ul>
+<li>规定独立的流内容</li>
+<li>可以是图片，图表，代码等等</li>
+</ul>
+</li>
+<li>&lt;figcation&gt;<ul>
+<li>定义&lt;figure&gt;的标题</li>
+<li>放在&lt;figure&gt;的第一个或最后一个子元素的位置，且只能有一个&lt;figcation&gt;</li>
+<li>可以是文字说明，图片备注 </li>
+</ul>
+</li>
+<li>使用&lt;figure&gt;/&lt;figcation&gt;的好处是方便应用CSS，如同一个盒子元素<br>示例代码：  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">figure</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">figcaption</span>&gt;</span>标题(只能有一个)<span class="tag">&lt;/<span class="name">figcaption</span>&gt;</span></span><br><span class="line">...(其他元素，可无限放置)</span><br><span class="line"><span class="tag">&lt;/<span class="name">figure</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>各种浏览器支持的音视频格式不一样，注意考虑：浏览器支持性问题</li>
+<li>可以在标签之间放置文本内容，不支持此元素的浏览器就可以显示出该标签的信息</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6. 超链接"></a>6. 超链接</h1><hr>
 <h1 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h1><p>^ _ ^ 其实去菜鸟，w3school等网站都可以找到详细教程，为什么还是自己整理了笔记呢？一方面是因为笔记这种东西其实会有很强的“个人风格”，带有自己的叙述方式以及个人理解，感觉以后翻阅起来更加舒服（有种个人素材库的感觉哈哈）；另一方面是因为整理笔记的过程也算是一次复习吧，而且像这样敲打一遍感觉记忆会更加深刻；再者就是记录自己学习的过程啊哈哈~ ^ _ ^ </p>
 <hr>
 <p>PS: 基于书籍《HTML5+CSS3网页设计案例教程》以及网络资源</p>
@@ -502,15 +634,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
         		</li>
       		
 		</ul>
@@ -618,7 +750,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#前言："><span class="toc-number">1.</span> <span class="toc-text">前言：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-简单介绍："><span class="toc-number">2.</span> <span class="toc-text">1. 简单介绍：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-HTML文档："><span class="toc-number">3.</span> <span class="toc-text">2. HTML文档：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-HTML语法："><span class="toc-number">4.</span> <span class="toc-text">3. HTML语法：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-HTML标记："><span class="toc-number">4.1.</span> <span class="toc-text">3.1 HTML标记：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-HTML属性："><span class="toc-number">4.2.</span> <span class="toc-text">3.2. HTML属性：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-lt-head-gt"><span class="toc-number">4.3.</span> <span class="toc-text">3.3 &lt;head&gt;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-文字与段落："><span class="toc-number">4.4.</span> <span class="toc-text">3.4 文字与段落：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-5"><span class="toc-number">4.5.</span> <span class="toc-text">3.5</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#后记："><span class="toc-number">5.</span> <span class="toc-text">后记：</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#前言："><span class="toc-number">1.</span> <span class="toc-text">前言：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-简单介绍："><span class="toc-number">2.</span> <span class="toc-text">1. 简单介绍：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-HTML文档："><span class="toc-number">3.</span> <span class="toc-text">2. HTML文档：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-HTML语法："><span class="toc-number">4.</span> <span class="toc-text">3. HTML语法：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-HTML标记："><span class="toc-number">4.1.</span> <span class="toc-text">3.1 HTML标记：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-HTML属性："><span class="toc-number">4.2.</span> <span class="toc-text">3.2. HTML属性：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-lt-head-gt"><span class="toc-number">4.3.</span> <span class="toc-text">3.3 &lt;head&gt;</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-文字与段落："><span class="toc-number">5.</span> <span class="toc-text">4.  文字与段落：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-网页多媒体元素："><span class="toc-number">6.</span> <span class="toc-text">5.  网页多媒体元素：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-图像-lt-img-gt"><span class="toc-number">6.1.</span> <span class="toc-text">5.1 图像&lt;img&gt;:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-视频-lt-video-gt"><span class="toc-number">6.2.</span> <span class="toc-text">5.2 视频&lt;video&gt;:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-3-音频-lt-audio-gt"><span class="toc-number">6.3.</span> <span class="toc-text">5.3 音频&lt;audio&gt;:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-4-lt-source-gt"><span class="toc-number">6.4.</span> <span class="toc-text">5.4 &lt;source&gt;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-5-多媒体文件-lt-embed-gt"><span class="toc-number">6.5.</span> <span class="toc-text">5.5 多媒体文件&lt;embed&gt;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-6-对象-lt-object-gt"><span class="toc-number">6.6.</span> <span class="toc-text">5.6 对象&lt;object&gt;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-7-媒介分组和标题-lt-figure-gt-lt-figcation-gt"><span class="toc-number">6.7.</span> <span class="toc-text">5.7 媒介分组和标题&lt;figure&gt;/&lt;figcation&gt;</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-超链接"><span class="toc-number">7.</span> <span class="toc-text">6. 超链接</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#后记："><span class="toc-number">8.</span> <span class="toc-text">后记：</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -749,7 +881,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">CSS</a>
+                <a href="javascript:void(0)" class="js-tag color5">HTML</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -761,11 +893,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">HTML</a>
+                <a href="javascript:void(0)" class="js-tag color4">CSS</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -774,6 +902,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">网页设计</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
               </li>
             
             <div class="clearfix"></div>
