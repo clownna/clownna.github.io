@@ -28,7 +28,7 @@
 <meta property="og:image" content="http://yoursite.com/assets/img/p_auto.png">
 <meta property="og:image" content="http://yoursite.com/assets/img/p_meta.png">
 <meta property="og:image" content="http://yoursite.com/assets/img/p_none.png">
-<meta property="og:updated_time" content="2019-11-22T10:08:12.708Z">
+<meta property="og:updated_time" content="2019-11-27T10:18:50.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTML学习笔记">
 <meta name="twitter:description" content="前言：^ _ ^ 整理一下以前乱七八糟的笔记哈哈，以后要查找浏览就方便多啦~  ^ _ ^">
@@ -186,36 +186,15 @@
 <hr>
 <h1 id="1-简单介绍："><a href="#1-简单介绍：" class="headerlink" title="1. 简单介绍："></a>1. 简单介绍：</h1><p>建议访问，有详细教程：<a href="https://www.runoob.com/html/html-tutorial.html" target="_blank" rel="noopener">菜鸟教程</a> | <a href="https://www.w3school.com.cn/html/index.asp" target="_blank" rel="noopener">w3school</a></p>
 <ul>
-<li>HTML：<ul>
+<li><p>HTML：</p>
+<ul>
 <li>用来描述网页文档的一种超文本标记/标签语言，英文全称是Hyper Text Markup Language（超文本标记语言）;</li>
 <li>纯文本文件，能用任意的文本编辑器编辑，如：记事本、写字板、 Word 、 Dreamweaver 、 Frontpage 等；</li>
 <li>通过标记来标识要显示网页的各个部分，浏览器按顺序阅读网页文件，然后根据标记解释和显示网页内容；</li>
 </ul>
 </li>
-<li>最新版本HTML5：<ul>
-<li>新增了更多语义化标记：header,footer,section,article,aside,nav等;</li>
-<li>新增了很多标识元素：canvas,audio,video等；</li>
-<li>取消HTML4过时标记：字体&lt;font&gt;,框架&lt;frame&gt;,&lt;frameset&gt;等；</li>
-<li>一些全新的表单输入对象，如URL,Email等；</li>
-<li>支持本地数据库；</li>
-<li>对移动应用程序和游戏方面的支持；</li>
-<li>可以跨平台使用，具有良好的移植性；<ul>
-<li>跨平台使用：应用（如程序语言）可以在多种系统下开发，运行和维护；</li>
-<li>可移植性：程序可以在不同平台上使用，只需改动部分代码（实现本质：使用标准库函数；尽可能使所写的程序适用于所有的编译程序；分模块编程，使改写(重写)程序的工作变得轻易）；</li>
-</ul>
-</li>
-<li>HTML5 API： <a href="https://www.html5plus.org/doc/zh_cn/accelerometer.html" target="_blank" rel="noopener">相关网站</a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>API：应用程序编程接口，是一组定义、程序及协议的集合，通过 API接口实现计算机软件之间的相互通信。API 的一个主要功能是提供通用功能集。API同时也是一种中间件，为各种不同平台提供数据共享。</p>
-<blockquote>
-<p>编译程序也称为编译器，是指把用高级程序设计语言书写的源程序，翻译成等价的机器语言格式目标程序的翻译程序。</p>
-</blockquote>
-</blockquote>
+<li><p>XHTML:</p>
 <ul>
-<li>XHTML:<ul>
 <li>可扩展超文本标记语言</li>
 <li>是一种增强了的HTML，XHTML 是更严谨更纯净的 HTML 版本<ul>
 <li>所有元素，包括空元素，比如img、br等，也都必须<strong>闭合</strong>，实现的方式是在开始标签末尾加入斜扛，比如&lt;img … /&gt; 、&lt;br /&gt;</li>
@@ -231,6 +210,47 @@
 </ul>
 <blockquote>
 <p>HTML是一种基于标准通用标记语言（SGML）的应用，而XHTML则基于可扩展标记语言（XML），XML是SGML的一个子集。<br>国际上在网站设计中推崇的WEB标准就是基于XHTML的应用（即通常所说的CSS+DIV）。</p>
+</blockquote>
+<ul>
+<li><p>最新版本HTML5：</p>
+<ul>
+<li><p>新增了更多语义化标记：header,footer,section,article,aside,nav等;</p>
+</li>
+<li><p>新增了很多标识元素：canvas,audio,video等；</p>
+</li>
+<li><p>取消HTML4过时标记：字体&lt;font&gt;,框架&lt;frame&gt;,&lt;frameset&gt;等；</p>
+</li>
+<li><p>在书写上更加简便：</p>
+<ul>
+<li>某些元素可以省略结束标签</li>
+<li>某些元素不用正确闭合标签</li>
+<li>属性值可以不用引号括起来</li>
+<li>标签不再区分大小写</li>
+<li>某些标志性的属性可以省略属性值，通常为 boolean 类型</li>
+</ul>
+</li>
+<li><p>一些全新的表单输入对象，如URL,Email等；</p>
+</li>
+<li><p>支持本地数据库；</p>
+</li>
+<li><p>对移动应用程序和游戏方面的支持；</p>
+</li>
+<li><p>可以跨平台使用，具有良好的移植性；</p>
+<ul>
+<li>跨平台使用：应用（如程序语言）可以在多种系统下开发，运行和维护；</li>
+<li>可移植性：程序可以在不同平台上使用，只需改动部分代码（实现本质：使用标准库函数；尽可能使所写的程序适用于所有的编译程序；分模块编程，使改写(重写)程序的工作变得轻易）；</li>
+</ul>
+</li>
+<li><p>HTML5 API： <a href="https://www.html5plus.org/doc/zh_cn/accelerometer.html" target="_blank" rel="noopener">相关网站</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>API：应用程序编程接口，是一组定义、程序及协议的集合，通过 API接口实现计算机软件之间的相互通信。API 的一个主要功能是提供通用功能集。API同时也是一种中间件，为各种不同平台提供数据共享。</p>
+<blockquote>
+<p>编译程序也称为编译器，是指把用高级程序设计语言书写的源程序，翻译成等价的机器语言格式目标程序的翻译程序。</p>
+</blockquote>
 </blockquote>
 <hr>
 <h1 id="2-HTML文档："><a href="#2-HTML文档：" class="headerlink" title="2. HTML文档："></a>2. HTML文档：</h1><ul>
@@ -706,7 +726,7 @@
 </li>
 <li><p>width：视频宽度； height：视频高度；属性值：像素</p>
 </li>
-<li><p>基本语法：<code>&lt;video src=&quot;url&quot; controls=&quot;controls&quot;  autoplay=&quot;autoplay&quot;  loop=&quot;loop&quot; muted=&quot;muted&quot; poster=&quot;url&quot;&gt;...&lt;/video&gt;</code></p>
+<li><p>基本语法：<code>&lt;video src=&quot;url&quot; controls=&quot;controls&quot;  autoplay=&quot;autoplay&quot;  loop=&quot;loop&quot; muted=&quot;muted&quot; poster=&quot;url&quot;&gt;...&lt;/video&gt;``&lt;video src=&quot;url&quot; controls autoplay loop muted poster=&quot;url&quot;&gt;...&lt;/video&gt;</code></p>
 </li>
 </ul>
 <hr>
@@ -1061,10 +1081,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">HTML</a>
               </li>
              
@@ -1073,15 +1089,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">安装</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">组件</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">网页设计</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1089,7 +1105,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">安装</a>
+                <a href="javascript:void(0)" class="js-tag color5">网页设计</a>
               </li>
             
             <div class="clearfix"></div>
