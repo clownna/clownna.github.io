@@ -6,22 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>vuejs_安装与使用 | Clownna</title>
+  <title>JavaScript(ES)学习笔记 | Clownna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前言：系统：Windows命令行程序：cmd.exe">
-<meta name="keywords" content="笔记,学习,vuejs,安装">
+  <meta name="description" content="1. 语言概念：">
+<meta name="keywords" content="学习,笔记,JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vuejs_安装与使用">
-<meta property="og:url" content="http://yoursite.com/2019/11/12/vuejs-安装与使用/index.html">
+<meta property="og:title" content="JavaScript(ES)学习笔记">
+<meta property="og:url" content="http://yoursite.com/2020/04/22/JavaScript-ES-学习笔记/index.html">
 <meta property="og:site_name" content="Clownna">
-<meta property="og:description" content="前言：系统：Windows命令行程序：cmd.exe">
+<meta property="og:description" content="1. 语言概念：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/assets/img/vue_d.png">
-<meta property="og:updated_time" content="2019-11-13T14:30:40.035Z">
+<meta property="og:updated_time" content="2020-04-22T07:13:47.682Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vuejs_安装与使用">
-<meta name="twitter:description" content="前言：系统：Windows命令行程序：cmd.exe">
-<meta name="twitter:image" content="http://yoursite.com/assets/img/vue_d.png">
+<meta name="twitter:title" content="JavaScript(ES)学习笔记">
+<meta name="twitter:description" content="1. 语言概念：">
   
     <link rel="alternative" href="/atom.xml" title="Clownna" type="application/atom+xml">
   
@@ -141,14 +139,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-vuejs-安装与使用" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-JavaScript-ES-学习笔记" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      vuejs_安装与使用
+      JavaScript(ES)学习笔记
     </h1>
   
 
@@ -160,8 +158,8 @@
       </span>
 
 
-<a href="/2019/11/12/vuejs-安装与使用/" class="archive-article-date">
-<time datetime="2019-11-12T06:21:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-12</time>
+<a href="/2020/04/22/JavaScript-ES-学习笔记/" class="archive-article-date">
+<time datetime="2020-04-22T07:03:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-22</time>
 </a>
         
       </header>
@@ -169,123 +167,1419 @@
     <div class="article-entry" itemprop="articleBody">
       
         <hr>
-<h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>系统：Windows<br>命令行程序：cmd.exe</p>
-<a id="more"></a>
+<h1 id="1-语言概念："><a href="#1-语言概念：" class="headerlink" title="1. 语言概念："></a>1. 语言概念：</h1><a id="more"></a>
 
-<hr>
-<h1 id="1-简单介绍："><a href="#1-简单介绍：" class="headerlink" title="1.简单介绍："></a>1.简单介绍：</h1><p>Vuejs：渐进式JavaScript框架。<a href="https://cn.vuejs.org" target="_blank" rel="noopener">官方文档</a></p>
-<hr>
-<h1 id="2-环境配置："><a href="#2-环境配置：" class="headerlink" title="2. 环境配置："></a>2. 环境配置：</h1><h2 id="2-1-vuejs需要用到的插件："><a href="#2-1-vuejs需要用到的插件：" class="headerlink" title="2.1 vuejs需要用到的插件："></a>2.1 vuejs需要用到的插件：</h2><p>QQ浏览器—应用中心—Vue devtools</p>
-<hr>
-<h2 id="2-2-安装方式之一：NPM-命令行工具CLI："><a href="#2-2-安装方式之一：NPM-命令行工具CLI：" class="headerlink" title="2.2 安装方式之一：NPM+命令行工具CLI："></a>2.2 安装方式之一：NPM+命令行工具CLI：</h2><ul>
-<li>在已安装完nodejs以及npm环境的前提下，下载vue脚手架：<ul>
-<li>由于新版的nodejs已经集成了npm，npm在安装node的时候顺带就安装好了</li>
-<li>安装nodejs：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">官网下载</a> </li>
-<li>检验node环境：<code>node  –v</code></li>
-<li>检验npm环境：<code>npm  –v</code><ul>
-<li>升级npm命令：<code>npm  install  npm  -g</code></li>
-</ul>
-</li>
-<li>下载vue脚手架：<ul>
-<li>npm下载：<code>npm install vue-cli -g</code></li>
-<li>原镜像npm的服务器位于国外可能会影响安装（网络太慢或拦截），所以推荐使用淘宝镜像cnpm：<a href="https://npm.taobao.org" target="_blank" rel="noopener">淘宝镜像</a></li>
-<li>相关指令：<code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></li>
-<li>检测cnpm环境：<code>cnpm  -v</code></li>
-<li>也就是说，在输入以上指令之后，后面都可以用cnpm的服务器去下载（网速较快）<ul>
-<li>比如：<code>cnpm install vue-cli -g</code> </li>
-</ul>
-</li>
-<li>但以上指令会下载一些不相关的东西。所以可以直接这样下载：<ul>
-<li><code>npm install -g vue-cli --registry=https://registry.npm.taobao.org</code><br>（只需将cnpm改成vue-cli，使用淘宝镜像下载vue-cli）</li>
-<li>即<code>npm i -g 资源包名 --registry=https://registry.npm.taobao.org</code></li>
-</ul>
-</li>
-<li><code>-g</code>即全局安装</li>
-</ul>
-</li>
-<li>是否下载成功：vue  -V</li>
-</ul>
-</li>
-</ul>
-<blockquote>
+<p>计算机语言是与计算机交流的工具，具有功能指令的语句组成了程序，编写计算机语言程序即编程。现在用到的一般是现代语言（即高级语言），其语法与人类语言类似。<br>需要编译的语言会再转换成计算机能够识别的二进制编码。</p>
+<h1 id="2-JavaScript简介："><a href="#2-JavaScript简介：" class="headerlink" title="2. JavaScript简介："></a>2. JavaScript简介：</h1><h2 id="2-1-起源："><a href="#2-1-起源：" class="headerlink" title="2.1 起源："></a>2.1 起源：</h2><p>JavaScript一开始是为了进行前端验证 （即检查用户输入内容是否符合一定规则），后来也用于实现页面动态效果。</p>
+<p>为了确保不同浏览器运行的JavaScript标准一致，现在使用的JavaScript都是遵循ECMAScript标准，简称ES。</p>
+<p>不同浏览器用到的js引擎不同，即实现js的方式不同。</p>
+<h2 id="2-2-组成："><a href="#2-2-组成：" class="headerlink" title="2.2 组成："></a>2.2 组成：</h2><p>JavaScript：ES+DOM+BOM</p>
+<h2 id="2-3-特点："><a href="#2-3-特点：" class="headerlink" title="2.3 特点："></a>2.3 特点：</h2><p>JavaScript负责页面中的的行为。<br>它是一门运行在浏览器端的脚本语言。</p>
+<p>1.解释型语言（无需编译）<br>2.动态语言<br>3.基于原型的面向对象</p>
+<h1 id="3-JavaScript语法：-ES"><a href="#3-JavaScript语法：-ES" class="headerlink" title="3. JavaScript语法：(ES)"></a>3. JavaScript语法：(ES)</h1><h2 id="3-1-编写位置（从上到下执行）："><a href="#3-1-编写位置（从上到下执行）：" class="headerlink" title="3.1 编写位置（从上到下执行）："></a>3.1 编写位置（从上到下执行）：</h2><p>1.可以编写到标签的指定属性中：<br>结构与行为耦合，不方便维护（不推荐使用）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"alert('hello');"</span>&gt;</span>按钮<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"javascript:alert('hello');"</span>&gt;</span>超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>2.可以编写到script标签中：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="actionscript"><span class="comment">//编写js代码</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>3.可以将代码编写到外部的js文件中，然后通过标签将其引入：<br>写到外部文件中可以在不同的页面中同时引用，也可以利用到浏览器的缓存机制（推荐使用的方式）。script标签一旦用于引入外部文件了，就不能在其中编写代码了。可以创建一个新的script标签用于编写内部代码。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"文件路径"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="3-2-输出语句："><a href="#3-2-输出语句：" class="headerlink" title="3.2 输出语句："></a>3.2 输出语句：</h2><p>常用于（BUG）调试。</p>
 <ul>
-<li>nodejs： 运行在服务端的 JavaScript 。<a href="http://nodejs.cn/api/" target="_blank" rel="noopener">nodejs中文文档</a></li>
-<li>npm（Node Package Manager）：基于Node.js的包管理器。初衷：JavaScript开发人员更容易分享和重用代码。npm算是一个集中管理的工具，允许用户获取第三方包并使用；允许用户将自己编写的包或命令行程序进行发布分享。<a href="https://www.npmjs.cn/" target="_blank" rel="noopener">npm中文文档</a></li>
+<li>alert(“要输出的内容”);<pre><code>- 该语句会在浏览器窗口中弹出一个警告框</code></pre></li>
+<li>document.write(“要输出的内容”);<pre><code>- 该内容将会被写到body标签中，并在页面中显示</code></pre></li>
+<li>console.log(“要输出的内容”);<pre><code>- 该内容会被写到开发者工具的控制台中</code></pre></li>
+<li>prompt(“请输入内容：”)：<pre><code>- 可以弹出一个提示框，该提示框中会带有一个文本框，用户可以在文本框中输入一段内容，该函数需要一个字符串作为参数，该字符串将会作为提示框的提示文字。用户输入的内容将会作为函数的返回值返回，可以定义一个变量来接收该内容。
+- 返回的值是string类型。可以直接在函数前加+，转换成number：
+var num = +prompt(&quot;请输入一个数字：&quot;)
+alert(typeof num);  //number</code></pre></li>
+<li>confirm(“确认要删除吗？”);<pre><code>- 带有确认和取消按钮的弹窗
+- 如果用户点击确认，返回true；点击取消，返回false。</code></pre></li>
 </ul>
-</blockquote>
-<hr>
-<h1 id="3-创建项目："><a href="#3-创建项目：" class="headerlink" title="3. 创建项目："></a>3. 创建项目：</h1><h2 id="3-1-创建vue项目（如helloworld）："><a href="#3-1-创建vue项目（如helloworld）：" class="headerlink" title="3.1 创建vue项目（如helloworld）："></a>3.1 创建vue项目（如helloworld）：</h2><ul>
-<li>执行命令：<code>vue  init  webpack  helloworld</code></li>
+<h2 id="3-3-js注释："><a href="#3-3-js注释：" class="headerlink" title="3.3 js注释："></a>3.3 js注释：</h2><ul>
+<li>单行注释：//注释内容</li>
+<li>多行注释：<br>/*<br>注释内容</li>
 </ul>
-<blockquote>
+<p>*/</p>
+<h2 id="3-4-编写规则："><a href="#3-4-编写规则：" class="headerlink" title="3.4 编写规则："></a>3.4 编写规则：</h2><ul>
+<li>JS严格区分大小写    </li>
+<li>JS中每条语句以分号(;)结尾</li>
+<li>JS中会自动忽略多个空格和换行，所以我们可以利用空格和换行对代码进行格式化。</li>
+</ul>
+<h2 id="3-5-字面量和变量："><a href="#3-5-字面量和变量：" class="headerlink" title="3.5 字面量和变量："></a>3.5 字面量和变量：</h2><ul>
+<li>字面量<pre><code>- 固定的值，比如 1  true false null NaN &quot;hello&quot;
+字面量都是不可以改变的。
+- 由于字面量不是很方便使用，所以在JS中很少直接使用字面量</code></pre></li>
+<li>变量<pre><code>- 变量可以用来保存任意的字面量
+- 一般都是通过变量来使用字面量，而不直接使用字面量，还可以通过变量来对字面量进行描述
+- 声明变量：使用var关键字来声明一个变量
+var a;
+- 为变量赋值：
+a = 1;
+- 声明和赋值同时进行：
+var a  = 1;</code></pre></li>
+</ul>
+<h2 id="3-6-标识符："><a href="#3-6-标识符：" class="headerlink" title="3.6 标识符："></a>3.6 标识符：</h2><ul>
+<li>在JS中所有的可以自主命名的内容，都可以认为是一个标识符</li>
+<li>比如：变量名、函数名、属性名</li>
+<li>标识符需要遵守一定的规范：</li>
+</ul>
+<p>1.标识符中可以含有字母、数字、_、$<br>2.标识符不能以数字开头<br>3.标识符不能是JS中的关键字和保留字<br>4.标识符一般采用驼峰命名法（helloWorld）</p>
+<h2 id="3-7-数据类型-字面量的类型-："><a href="#3-7-数据类型-字面量的类型-：" class="headerlink" title="3.7 数据类型(字面量的类型)："></a>3.7 数据类型(字面量的类型)：</h2><ul>
+<li><p>JS中一共分成六种数据类型</p>
+<pre><code>- String 字符串
+- Number 数值
+- Boolean 布尔值
+- Null 空值
+- Undefined 未定义
+- Object 对象</code></pre></li>
+<li><p>其中基本数据类型有    </p>
 <ul>
-<li>vue，安装vue-cli脚手架时生成的指令</li>
-<li>init ，用来基于某个模版创建新项目</li>
-<li>webpack ，用来创建项目的模版（不可省略）</li>
-<li>helloworld，项目所在文件夹</li>
+<li><p>String 字符串</p>
+<pre><code>- JS中的字符串需要使用双引号或单引号引起来
+- 注意引号嵌套问题，如“‘’”或者‘“”’
+- 在字符串中使用\作为转义字符
+    \\&apos;  ==&gt; &apos;
+    \\&quot;  ==&gt; &quot;
+    \n  ==&gt; 换行
+    \t  ==&gt; 制表符
+    \\\  ==&gt; \    
+
+- 使用typeof运算符检查字符串时，会返回&quot;string&quot;    </code></pre></li>
+<li><p>Number 数值</p>
+<pre><code>- JS中所有的整数和浮点数
+- JS中表示数字的最大值：Number.MAX_VALUE
+- JS中表示数字的最小（正数）值：Number.MIN_VALUE
+- 特殊的数字    
+    Infinity 正无穷
+    -Infinity 负无穷
+    NaN 非法数字（Not A Number）
+- 其他进制的数字的表示：
+    0b 开头表示二进制，但是不是所有的浏览器都支持
+    0 开头表示八进制
+    0x 开头表示十六进制
+- 使用typeOf检查一个Number类型的数据时，会返回&quot;number&quot;（包括NaN 和 Infinity）
+- JS中进行浮点运算，可能得到一个不精确的结果（计算时都是转换成二进制，而二进制不能精确表示浮点数，不能进行精确运算）</code></pre></li>
+<li><p>Boolean 布尔值</p>
+<pre><code>- 布尔值主要用来进行逻辑判断，布尔值只有两个
+- true 逻辑的真
+- false 逻辑的假
+- 使用typeof检查一个布尔值时，会返回&quot;boolean&quot;    </code></pre></li>
+<li><p>Null 空值</p>
+<pre><code>- 空值专门用来表示为空的对象，Null类型的值只有一个为null
+- **使用typeOf检查一个Null类型的值时会返回&quot;object&quot;**
+- 可以通过isNaN()函数来判断一个值是不是NaN，是则返回true，否则返回false</code></pre></li>
+<li><p>Undefined 未定义</p>
+<pre><code>- 如果声明一个变量但是没有为变量赋值此时变量的值就是undefined
+- 该类型的值只有一个为 undefined
+- 使用typeof检查一个Undefined类型的值时，会返回&quot;undefined&quot;</code></pre></li>
 </ul>
-</blockquote>
-<p>Ps: 下载的时候所作的一些设置如下图：<br>选择第三个自行操作，运行之后按指示操作（因为如果让它自行操作的话会由于外网的拦截报错）：</p>
-<p><img src="/assets/img/vue_d.png" alt="创建vue项目设置" title="创建vue项目设置"></p>
+</li>
+<li><p>引用数据类型    </p>
+<pre><code>- Object 对象</code></pre></li>
+<li><p>类型转换</p>
 <ul>
-<li>进入文件夹：<code>cd helloworld</code></li>
-<li>查看目录：dir</li>
-<li>如果没有node_modules文件夹（node_modules即扩展模块，是vue项目所需的运行环境）<ul>
-<li>安装依赖：<code>npm install --registry=https://registry.npm.taobao.org</code></li>
-</ul>
+<li><p>类型转换就是指将其他的数据类型，转换为String Number 或 Boolean</p>
 </li>
-</ul>
-<blockquote>
-<p>当打开其他的vue项目运行报错时，先删除其项目的node_modules文件夹，重新安装依赖。<br>（nodejs中package.json中的依赖必须每个项目都有自己的node_modules文件夹，而无法在多个项目之间共用一套node_modules，所以报错需要重新安装）</p>
-</blockquote>
+<li><p>转换为String</p>
 <ul>
-<li>启动项目：<code>npm run dev</code></li>
+<li><p>方式一（强制类型转换）：</p>
+<pre><code>- 调用被转换数据的toString()方法（返回转换的值）
+- 例子：
+    var a = 123;
+    a = a.toString();
+- **注意：这个方法不适用于null和undefined**
+    由于这两个类型的数据中没有方法，所以调用toString()时会报错</code></pre></li>
+<li><p>方式二（强制类型转换）：</p>
+<pre><code>- 调用String()函数（被转换数据作为参数）
+- 例子：
+    var a = 123;
+    a = String(a);
+- 原理：对于Number Boolea调用String函数则是调用他们的toString()方法来将其转换为字符串，而对于null，undefined，则是直接转换为字符串&quot;null&quot;，&quot;undefined&quot;。</code></pre></li>
+<li><p>方式三（隐式的类型转换）: </p>
+<pre><code>- 为任意的数据类型 +&quot;&quot;
+- 例子：
+    var a = true;
+    a = a + &quot;&quot;;
+- 原理：和String()函数一样    </code></pre></li>
 </ul>
-<hr>
-<h2 id="3-2-项目内部结构详解："><a href="#3-2-项目内部结构详解：" class="headerlink" title="3.2 项目内部结构详解："></a>3.2 项目内部结构详解：</h2><ul>
-<li><p>build目录：发布时要用到的文件</p>
 </li>
-<li><p>config目录：用于发布的配置文件</p>
+</ul>
 </li>
-<li><p>node_modules目录：扩展模块</p>
+</ul>
+<pre><code>- 转换为Number
+    - 方式一（强制类型转换）：
+            - 调用Number()函数
+            - 例子：
+                var a = &quot;123&quot;;
+                a = Number(a);
+            - 转换的情况：
+                1.字符串 --&gt; 数字
+                    - 如果字符串是一个合法的数字，则直接转换为对应的数字
+                    - 如果字符串是一个非法的数字，则转换为NaN
+                    - 如果是一个空串(空字符串)或纯空格的字符串，则转换为0
+                2.布尔值 --&gt; 数字
+                    - true转换为1
+                    - false转换为0
+                3.空值 --&gt; 数字
+                    - null转换为0
+                4.未定义 --&gt; 数字
+                    - undefined 转换为NaN
+
+    - 方式二（强制类型转换）：
+        - 调用parseInt()或parseFloat()
+        - 这两个函数专门用来将一个字符串转换为数字的
+        - parseInt()
+            - 可以将一个字符串中的有效的整数位提取出来，并转换为Number
+                - 例子：
+                    var a = &quot;123.456px&quot;;
+                    a = parseInt(a); //123
+
+            - 如果需要可以在parseInt()中指定一个第二个参数，来指定进制    
+                - 例子：
+                      var a =“020”; 
+                    //有的浏览器会认为这是一个八进制的数，有的浏览器会认为这是一个十进制的数
+                    a = parseInt(a,10); //表示将其转换成十进制的数
+
+            - 对于非String的值会先将其转换成String再进行转换
+
+        - parseFloat()
+            - 可以将一个字符串中的有效的整数位和小数位提取出来，并转换为Number
+                - 例子：
+                    var a = &quot;123.456px&quot;;
+                    a = parseFloat(a); //123.456
+
+    - 方式三（隐式的类型转换）：
+            - 使用一元的+来进行隐式的类型转换
+            - 例子：
+                var a = &quot;123&quot;;
+                a = +a;
+            - 原理：和Number()函数一样    
+
+            - 使用  -0  *1  /1  也可以j进行隐式的类型转换
+            - 原理：和Number()函数一样    
+
+- 转换为布尔值
+    - 方式一（强制类型转换）：
+            - 使用Boolean()函数
+            - 例子：
+                var s = &quot;false&quot;;
+                s = Boolean(s); //true
+            - 转换的情况
+            1.字符串 --&gt; 布尔
+                    - 除了空串其余全是true    
+            2.数值 --&gt; 布尔
+                    - 除了0和NaN其余的全是true
+            3.null、undefined ---&gt; 布尔
+                    - 都是false
+            4.对象 ---&gt; 布尔
+                    - 都是true
+
+    - 方式二（隐式类型转换）：    
+            - 为任意的数据类型做两次非运算（两次取反则布尔值不会变化），即可将其转换为布尔值
+            - 例子：    
+                var a = &quot;hello&quot;;
+                a = !!a; //true</code></pre><h2 id="3-8-运算符："><a href="#3-8-运算符：" class="headerlink" title="3.8 运算符："></a>3.8 运算符：</h2><ul>
+<li><p>运算符也称为操作符</p>
 </li>
-<li><p>src目录：项目源代码</p>
+<li><p>通过运算符可以对一个或多个值进行运算或操作，然后返回一个结果</p>
+</li>
+<li><p>typeof运算符</p>
 <ul>
-<li>assets: 存放素材图片、css、js等（内部资源包）</li>
-<li>components：存放vue组件文件</li>
-<li>router：存放vue路由文件</li>
-<li>App.vue：主应用程序组件</li>
-<li>main.js：程序的入口（核心）文件</li>
+<li>用来检查一个变量的数据类型</li>
+<li>语法：typeof 变量</li>
+<li>它会返回一个用于描述类型的字符串作为结果</li>
 </ul>
 </li>
-<li><p>static:放置图片、字体等元素（静态资源包）</p>
-</li>
-<li><p>index.html：首页入口文件，可添加一些 meta 信息或统计代码等</p>
-</li>
-<li><p>package.json文档：配置文档</p>
+<li><p>算数运算符（二元运算符）</p>
 <ul>
-<li><p><code>--save 或者-S</code>保存的地方是</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;dependencies&quot;: &#123; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li><p>+对两个值进行加法运算并返回结果</p>
 </li>
-<li><p><code>--save--dev</code> 保存的地方是</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;devDependencies&quot;: &#123; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li><p>-对两个值进行减法运算并返回结果</p>
 </li>
-</ul>
+<li><p>*对两个值进行乘法运算并返回结果</p>
 </li>
-<li><p>README.md：项目的说明文档，markdown 格式</p>
+<li><p>/对两个值进行除法运算并返回结果</p>
 </li>
-</ul>
-<hr>
-<h2 id="3-3-扩展："><a href="#3-3-扩展：" class="headerlink" title="3.3 扩展："></a>3.3 扩展：</h2><ul>
-<li>可用编辑器：vscode<ul>
-<li>汉化，并下载vue相关插件：如vetur等</li>
-<li>在vscode中打开文件夹helloworld：<ul>
-<li>指令：npm run + 缩写，在配置文件package.json里有相应的缩写</li>
-<li>如启动项目：<code>npm  run  dev</code></li>
-</ul>
+<li><p>%对两个值进行取余运算并返回结果（取模）</p>
+</li>
+<li><p>除了字符串以外，对其他非Number类型的值进行运算时，都会先转换为Number然后在做运算。（加，减，乘，除）</p>
+</li>
+<li><p>而做<strong>加法</strong>运算时，如果是两个字符串进行相加，则会做拼串操作，将两个字符连接为一个字符串。</p>
+</li>
+<li><p>任何值和字符串做加法，都会先转换为字符串，然后再拼串</p>
+</li>
+<li><p>任何值与NaN做运算最后都得NaN</p>
 </li>
 </ul>
 </li>
+<li><p>一元运算符</p>
+<ul>
+<li><p>一元运算符只需要一个操作数</p>
+</li>
+<li><p>一元的+</p>
+<ul>
+<li>就是正号，可以对一个数字进行符号位取正，也可以将一个非数字转换为数字</li>
+<li>例子：<br>  var a = true;<br>  a = +a; // 1</li>
+</ul>
+</li>
+<li><p>一元的-</p>
+<ul>
+<li>就是负号，可以对一个数字进行符号位取反，也可以将一个非数字转化成数字</li>
+<li>例子：<br>  var a = 10;<br>  a = -a; // -10</li>
+</ul>
+</li>
+<li><p>自增</p>
+<ul>
+<li>自增可以使变量在原值的基础上自增1</li>
+<li>自增使用 ++</li>
+<li>自增可以使用 前++（++a）后++(a++)</li>
+<li>无论是++a 还是 a++都会立即使原变量自增1（会直接改变原来的值，无需赋值）<br>  不同的是获取到的++a和a++的值是不同的:<pre><code>a++的值是变量的原值（自增前的值）即先赋值后自增
+++a的值是变量的新值（自增后的值）即先自增后赋值</code></pre></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>- 自减    
+    - 自减可以使变量在原值的基础上自减1
+    - 自减使用 --
+    - 自减可以使用 前--（--a）后--(a--)
+    - 无论是--a 还是 a--都会立即使原变量自减1（会直接改变原来的值，无需赋值）
+        不同的是获取到的--a和a--的值是不同的：
+            a--的值是变量的原值（自减前的值）
+            --a的值是变量的新值（自减后的值）</code></pre><ul>
+<li><p>逻辑运算符</p>
+<ul>
+<li><p>!</p>
+<pre><code>- 非运算可以对一个布尔值进行取反，true变false false变true  两次取反则不会有变化
+- 当对非布尔值使用!时，会先将其转换为布尔值然后再取反</code></pre></li>
+<li><p>&amp;&amp;</p>
+<ul>
+<li>&amp;&amp;可以对符号两侧的值进行与运算</li>
+<li>只有两端的值都为true时，才会返回true。只要有一个false就会返回false。</li>
+<li>与是一个短路的与，如果第一个值是false，则不再检查第二个值（找false）</li>
+<li>对于非布尔值，它会将其转换为布尔值然后做运算，并返回<strong>原值</strong><br>规则(类似于短路)：</li>
+</ul>
+<p>  1.如果第一个值为false，则返回第一个值<br>  2.如果第一个值为true，则返回第二个值</p>
+</li>
+<li><p>||</p>
+<ul>
+<li>||可以对符号两侧的值进行或运算</li>
+<li>只有两端都是false时，才会返回false。只要有一个true，就会返回true。</li>
+<li>或是一个短路的或，如果第一个值是true，则不再检查第二个值（找true）</li>
+<li>对于非布尔值，它会将其转换为布尔值然后做运算，并返回<strong>原值</strong><br>规则：    </li>
+</ul>
+<p>  1.如果第一个值为true，则返回第一个值<br>  2.如果第一个值为false，则返回第二个值</p>
+</li>
+</ul>
+</li>
+<li><p>赋值运算符</p>
+<ul>
+<li><p>= </p>
+<ul>
+<li>可以将符号右侧的值赋值给左侧变量                                       </li>
+</ul>
+</li>
+<li><p>+=</p>
+<ul>
+<li>a += 5 相当于 a = a+5</li>
+<li>var str = “hello”;  str += “world”;//helloworld</li>
+</ul>
+</li>
+<li><p>-=</p>
+<ul>
+<li>a -= 5  相当于 a = a-5</li>
+</ul>
+</li>
+<li><p>*=</p>
+<ul>
+<li>a <em>= 5 相当于 a = a</em>5</li>
+</ul>
+</li>
+<li><p>/=</p>
+<ul>
+<li>a /= 5 相当于 a = a/5    </li>
+</ul>
+</li>
+<li><p>%=</p>
+<ul>
+<li>a %= 5 相当于 a = a%5    </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>关系运算符<pre><code>- 关系运算符用来比较两个值之间的大小关系的
+    &gt;
+    &gt;=
+    &lt;
+    &lt;=
+- 关系运算符的规则和数学中一致，用来比较两个值之间的关系，
+    如果关系成立则返回true，关系不成立则返回false。
+- 如果比较的两个值是非数值，会将其转换为Number然后再比较。
+- 如果比较的两个值都是字符串，此时会比较字符串中第一个字符的Unicode编码（相等的话依次比较）所以这样不能正确比较两个数字，我们一般选择先转型，使其中一方转换成数字，这样则都会转换成数字进行比较：
+例子：
+console.log(&quot;123&quot; &gt; &quot;2&quot;);//false  比较了1和2的Unicode编码
+console.log(&quot;123&quot; &gt; +&quot;2&quot;);//true 先转型再进行比较</code></pre></li>
+</ul>
+<ul>
+<li><p>相等运算符</p>
+<ul>
+<li><p>==</p>
+<pre><code>- 相等，判断左右两个值是否相等，如果相等返回true，如果不等返回false
+- 如果对不同的类型进行比较，会将其转换为相同的类型然后再比较
+- 需要注意的是：
+    - console.log(null == 0); // false
+    - console.log(1 == &quot;1&quot;); // true
+    - console.log(true == &quot;1&quot;); // true
+    - console.log(undefined == null); // true  undefined 衍生自null
+    - console.log(NaN == NaN); // false   NaN不与任何值相等，包括它本身</code></pre></li>
+<li><p>!=</p>
+<pre><code>- 不等，判断左右两个值是否不等，如果不等则返回true，如果相等则返回false
+- 不等也会做自动的类型转换。</code></pre></li>
+<li><p>===</p>
+<pre><code>- 全等，判断左右两个值是否全等，它和相等类似，只不过它不会进行自动的类型转换，如果两个值的类型不同，则直接返回false
+ - 需要注意的是：
+     - console.log(1 ===&quot;1&quot;); // false
+    - console.log(undefined === null); // false</code></pre></li>
+<li><p>!==</p>
+<pre><code>- 不全等，和不等类似，但是它不会进行自动的类型转换，如果两个值的类型不同，它会直接返回true</code></pre></li>
+</ul>
+</li>
+<li><p>三元运算符：也叫条件运算符</p>
+<pre><code>?:
+    - 语法：条件表达式?语句1:语句2;
+    - 执行流程：
+   1.先对条件表达式求值判断
+   2.如果判断结果为true，则执行语句1，并返回执行结果
+   3.如果判断结果为false，则执行语句2，并返回执行结果</code></pre></li>
+<li><p>，运算符：<br>使用，运算符来声明多个变量并赋值            </p>
+</li>
+<li><p>运算符的优先级：</p>
+<pre><code>- 和数学中一样，JS中的运算符也是具有优先级的，
+    比如 先乘除 后加减 先与 后或
+- 具体的优先级可以参考优先级的表格，在表格中越靠上的优先级越高，
+    优先级越高的越优先计算，优先级相同的，从左往右计算。
+- 优先级不需要记忆，如果不清楚的，使用()来改变优先级。
+- 对象相关的优先级最高： .   []   new   接着就是()</code></pre></li>
+</ul>
+<h2 id="3-9-流程控制语句"><a href="#3-9-流程控制语句" class="headerlink" title="3.9 流程控制语句:"></a>3.9 流程控制语句:</h2><ul>
+<li><p>程序都是由一条条语句组成的</p>
+</li>
+<li><p>可以用{}为语句分组，用{}括起来的语句为代码块（但不会有隔离作用）</p>
+</li>
+<li><p>程序都是自上向下的顺序执行的， 通过流程控制语句可以改变程序执行的顺序，或者反复的执行某一段的程序。</p>
+</li>
+<li><p>分类：<br>  1.条件判断语句<br>  2.条件分支语句<br>  3.循环语句</p>
+</li>
+<li><p>条件判断语句</p>
+<ul>
+<li><p>条件判断语句也称为if语句</p>
+</li>
+<li><p>语法一：<br>  if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }</p>
+<ul>
+<li>执行流程：<br>  if语句执行时，会先对条件表达式进行求值判断，<pre><code>如果值为true，则执行if后的语句
+如果值为false，则不执行</code></pre></li>
+</ul>
+</li>
+<li><p>语法二：<br>  if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }else{</p>
+<pre><code>语句...</code></pre><p>  }</p>
+<ul>
+<li>执行流程：<br>  if…else语句执行时，会对条件表达式进行求值判断，<pre><code>如果值为true，则执行if后的语句
+如果值为false，则执行else后的语句</code></pre></li>
+</ul>
+</li>
+<li><p>语法三：<br>  if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }else if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }else if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }else if(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }else{</p>
+<pre><code>语句...</code></pre><p>  }</p>
+<ul>
+<li>执行流程<ul>
+<li>if…else if…else语句执行时，会自上至下依次对条件表达式进行求值判断，如果判断结果为true，则执行当前if后的语句，执行完成后语句结束。如果判断结果为false，则继续向下判断，直到找到为true的为止。 如果所有的条件表达式都是false，则执行else后的语句</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>条件分支语句</p>
+<ul>
+<li><p>switch语句</p>
+</li>
+<li><p>语法:<br>  switch(条件表达式){</p>
+<pre><code>case 表达式:
+    语句...
+    break;
+case 表达式:
+    语句...
+    break;
+case 表达式:
+    语句...
+    break;
+default:
+    语句...
+    break;</code></pre><p>  }</p>
+</li>
+<li><p>执行流程：</p>
+<ul>
+<li>switch…case…语句在执行时，会依次将case后的表达式的值和switch后的表达式的值进行全等比较，<br>  如果比较结果为false，则继续向下比较。如果比较结果为true，则从当前case处开始向下执行代码。使用break退出switch语句<br>  如果所有的case判断结果都为false，则从default处开始执行代码。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>循环语句(三步：初始化变量，设置条件表达式，更新表达式)</p>
+<ul>
+<li><p>通过循环语句可以反复执行某些语句多次</p>
+</li>
+<li><p>while循环</p>
+<ul>
+<li><p>语法：<br>  while(条件表达式){</p>
+<pre><code>语句...</code></pre><p>  }</p>
+</li>
+<li><p>执行流程：<br>  while语句在执行时，会先对条件表达式进行求值判断，</p>
+<pre><code>如果判断结果为false，则终止循环
+如果判断结果为true，则执行循环体
+循环体执行完毕，继续对条件表达式进行求值判断，依此类推</code></pre></li>
+</ul>
+</li>
+<li><p>do…while循环</p>
+<ul>
+<li><p>语法:<br>  do{</p>
+<pre><code>语句...</code></pre><p>  }while(条件表达式)</p>
+</li>
+<li><p>执行流程<br>  do…while在执行时，会先执行do后的循环体，然后在对条件表达式进行判断，</p>
+<pre><code>如果判断判断结果为false，则终止循环。
+如果判断结果为true，则继续执行循环体，依此类推</code></pre></li>
+<li><p>和while的区别：<br>  while：先判断后执行<br>  do…while: 先执行后判断<br>  do…while可以确保循环体至少执行一次。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>- for循环
+    - 语法：
+        for(①初始化表达式 ; ②条件表达式 ; ④更新表达式){
+            ③语句...
+        }
+    - 执行流程：
+        首先执行①初始化表达式，初始化一个变量，
+        然后对②条件表达式进行求值判断，如果为false则终止循环
+        如果判断结果为true，则执行③循环体
+        循环体执行完毕，执行④更新表达式，对变量进行更新。
+        更新表达式执行完毕重复②
+    - 可嵌套
+
+- 死循环
+    while(true){
+        //退出循环
+        //break；
+    }
+
+    for(;;){//省略了①②④
+
+    }</code></pre><ul>
+<li>break 和 continue（提升性能）：<ul>
+<li>break 和 continue关键字可以用来退出switch或循环语句，退出离他最近的那个循环语句</li>
+<li>可以为循环语句创建一个label，来标识当前的循环<br>   label名称:循环语句<br>   使用break语句时，可以在break后跟着设置的label名称，来指定退出的循环语句</li>
+<li>break关键字，立即终止循环</li>
+<li>continue关键字，跳过当次循环</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>测试性能：<br>  //在程序执行前，开启计时器<br>  console.time(“计时器的名字”)可以用来开启一个计时器<br>  它需要一个字符串作为参数，这个字符串将会作为计时器的标识<br>  //在程序结束时，终止计时器<br>  console.timeEnd()用来停止一个计时器，同样参数为计时器名字</li>
+</ul>
+<h2 id="3-10-对象（Object）"><a href="#3-10-对象（Object）" class="headerlink" title="3.10 对象（Object）"></a>3.10 对象（Object）</h2><ul>
+<li><p>对象是JS中的引用数据类型</p>
+</li>
+<li><p>对象是一种复合数据类型，在对象中可以保存多个不同数据类型的属性</p>
+</li>
+<li><p>对象的分类：<br>  1.内建对象</p>
+<ul>
+<li>由ES标准中定义的对象，在任何的ES的实现中都可以使用</li>
+<li>比如：Math String Number Boolean Function Object….</li>
+</ul>
+<p>  2.宿主对象</p>
+<ul>
+<li>由JS的运行环境提供的对象，目前来讲主要指由浏览器提供的对象</li>
+<li>比如 BOM DOM</li>
+</ul>
+<p>  3.自定义对象</p>
+<ul>
+<li>由开发人员自己创建的对象</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>使用typeof检查一个对象时，会返回object</p>
+</li>
+<li><p>创建对象(保存在一个变量中)</p>
+<ul>
+<li>方式一：<ul>
+<li>var obj = new Object();</li>
+</ul>
+</li>
+<li>方式二：<ul>
+<li>var obj = {};</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>向对象中添加属性</p>
+<ul>
+<li><p>语法：<br>  对象.属性名 = 属性值;<br>  对象[“属性名”] = 属性值;（推荐这种写法，不加引号是变量）</p>
+<ul>
+<li>对象的属性名尽量按照标识符的要求去写。</li>
+<li>属性值可以任意的数据类型。(包括对象)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>读取对象中的属性</p>
+<ul>
+<li>语法：<br>  对象.属性名<br>  对象[“属性名”]</li>
+<li>如果读取一个对象中没有的属性，它不会报错，而是返回一个undefined</li>
+</ul>
+</li>
+<li><p>删除对象中的属性</p>
+<ul>
+<li>语法：<br>  delete 对象.属性名<br>  delete 对象[“属性名”]</li>
+</ul>
+</li>
+<li><p>使用in运算符检查对象中是否含有指定属性</p>
+<ul>
+<li>语法：”属性名” in 对象<ul>
+<li>如果在对象中含有该属性，则返回true<br>  如果没有则返回false</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>使用对象字面量，在创建对象时直接向对象中添加属性<br>  语法：</p>
+<pre><code>var obj = {
+                属性名:属性值,
+                属性名:属性值,
+                属性名:属性值（最后一个就不要写逗号了）
+                ...
+        }</code></pre></li>
+<li><p>基本数据类型和引用数据类型</p>
+<ul>
+<li>基本数据类型<br>  String Number Boolean Null Undefined</li>
+<li>引用数据类型<br>  Object</li>
+<li>基本数据类型的数据，变量是直接保存的它的值。<br>  变量与变量之间是互相独立的，修改一个变量不会影响其他的变量。</li>
+<li>引用数据类型的数据，变量保存的是对象的引用（内存地址）。<br>  如果多个变量指向的是同一个对象，此时修改一个变量的属性，会影响其他的变量。</li>
+<li>比较两个变量时，对于基本数据类型，比较的就是值，<br>  对于引用数据类型比较的是地址，地址相同才相同</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-11-函数（Function）"><a href="#3-11-函数（Function）" class="headerlink" title="3.11 函数（Function）"></a>3.11 函数（Function）</h2><ul>
+<li><p>函数也是一个对象，也具有普通对象的功能</p>
+</li>
+<li><p>函数中可以封装一些代码，在需要的时候可以去调用函数来执行这些代码</p>
+</li>
+<li><p>使用typeof检查一个函数时会返回function</p>
+</li>
+<li><p>创建函数</p>
+<ul>
+<li><p>函数声明<br>  function 函数名([形参1,形参2…形参N]){</p>
+<pre><code>语句...</code></pre><p>  }</p>
+</li>
+<li><p>函数表达式<br>  var 函数名 = function([形参1,形参2…形参N]){<br>  //匿名函数即没有赋值</p>
+<pre><code>语句...</code></pre><p>  };</p>
+</li>
+</ul>
+</li>
+<li><p>调用函数(后面加个括号一般就是在调用函数)</p>
+<ul>
+<li>语法：函数对象([实参1,实参2…实参N]);<br>  比如：alert() Number() parseInt()</li>
+<li>当我们调用函数时，函数中封装的代码会按照编写的顺序执行</li>
+</ul>
+</li>
+<li><p>形参和实参</p>
+<ul>
+<li><p>形参：形式参数（parameter）</p>
+<ul>
+<li>定义函数时，可以在()中定义一个或多个形参，形参之间使用,隔开<br>  定义形参就相当于在函数内声明了对应的变量但是并不赋值，<br>  形参会在调用时才赋值。</li>
+</ul>
+</li>
+<li><p>实参：实际参数（argument）</p>
+<ul>
+<li><p>调用函数时，可以在()传递实参，传递的实参会赋值给对应的形参,<br>  调用函数时JS解析器不会检查实参的类型和个数，可以传递任意数据类型的值，可以是一个对象，也可以是一个函数（经常把匿名函数作为一个参数，即回调函数，会自己执行）</p>
+<p>  如果实参的数量大于形参，多余实参将不会赋值，<br>  如果实参的数量小于形参，则没有对应实参的形参将会赋值undefined。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>函数b作为参数进行传递给函数a时的括号问题：</p>
+<ul>
+<li>当函数b加上括号时，通常会执行函数a本身。如果函数b有返回值，此时会得到函数b的返回值作为函数a的参数；</li>
+<li>当函数b后不加括号时，其实质上是一个函数指针，用于找到函数b的位置并执行函数b。</li>
+</ul>
+</li>
+</ul>
+<p>因此，如果把函数作为参数进行值传递时，通常不需要加括号。但是如果是想要得到函数的返回值，就必须要加上括号。</p>
+<ul>
+<li><p>返回值，就是函数执行的结果。<br>  使用return 来设置函数的返回值。<br>  语法：return 值;</p>
+<ul>
+<li><p>该值就会成为函数的返回值，可以通过一个变量来接收返回值</p>
+</li>
+<li><p>return后边的代码都不会执行，一旦执行到return语句时，函数将会立刻退出。</p>
+</li>
+<li><p>return后可以跟任意类型的值，可以是基本数据类型，也可以是一个对象。</p>
+</li>
+<li><p>如果return后不跟值，或者是不写return则函数默认返回undefined。</p>
+</li>
+</ul>
+</li>
+<li><p>立即执行函数：<br>  函数定义完，立即被调用，这种函数叫做立即执行函数<br>  立即执行函数往往只会执行一次<br>  语法：(function(){<br>  //即调用匿名函数，在函数对象后面加上括号表示调用</p>
+<pre><code>})();    </code></pre></li>
+<li><p>break、continue和return</p>
+<ul>
+<li><p>break</p>
+<ul>
+<li>退出循环</li>
+</ul>
+</li>
+<li><p>continue</p>
+<ul>
+<li>跳过当次循环</li>
+</ul>
+</li>
+<li><p>return</p>
+<ul>
+<li>退出函数</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>方法（method）</p>
+<ul>
+<li><p>可以将一个函数设置为一个对象的属性，</p>
+<p>  当一个对象的属性是一个函数时，我们称这个函数是该对象的方法。</p>
+</li>
+<li><p>对象.方法名();  如：document.write();</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>作用域（Scope）</p>
+<ul>
+<li><p>作用域简单来说就是一个变量的作用范围。</p>
+</li>
+<li><p>在JS中作用域分成两种：</p>
+<p>   1.全局作用域</p>
+<ul>
+<li><p>直接在script标签中编写的代码都运行在全局作用域中</p>
+</li>
+<li><p>全局作用域在打开页面时创建，在页面关闭时销毁。</p>
+</li>
+<li><p>全局作用域中有一个全局对象window，window对象由浏览器提供，可以在页面中直接使用，它代表的是整个的浏览器的窗口。</p>
+</li>
+<li><p>在全局作用域中创建的变量都会作为window对象的属性保存<br>在全局作用域中创建的函数都会作为window对象的方法保存<br>我们写代码的时候一般把window省略</p>
+</li>
+<li><p>在全局作用域中创建的变量和函数可以在页面的任意位置访问。<br>在函数作用域中也可以访问到全局作用域的变量。</p>
+</li>
+<li><p>尽量不要在全局中创建变量 </p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>    2.函数作用域
+
+   - 函数作用域是函数执行时创建的作用域，每次调用函数都会创建一个新的函数作用域。
+
+   - 函数作用域在函数执行时创建，在函数执行结束时销毁。
+
+   - 在函数作用域中创建的变量，不能在全局中访问。
+
+   - 当在函数作用域中使用一个变量时，它会先在自身作用域中寻找，
+   如果找到了则直接使用，如果没有找到则到上一级作用域中寻找，以此类推，最外一级是全局作用域（如果想要直接访问全局就在前面加个window）
+
+
+
+
+
+- 变量的声明提前（变量名的提升）
+
+    - 在全局作用域中，使用var关键字声明的变量会在所有的代码执行之前被声明，但是不会赋值（undefined）。
+
+        所以我们可以在变量声明前使用变量。但是不使用var关键字声明的变量不会被声明提前（会报错）。
+
+    - 在函数作用域中，也具有该特性，使用var关键字声明的变量会在函数所有的代码执行前被声明，（undefined）
+
+        如果没有使用var关键字声明变量，则该变量会变成全局变量
+
+
+
+- 函数的声明提前
+
+    - 在全局作用域中，使用函数声明创建的函数（function fun(){}）,会在所有的代码执行之前被创建，也就是我们可以在函数声明前去调用函数，但是使用函数表达式(var fun = function(){})创建的函数没有该特性（只var了一个变量fun，即undefined，不会创建函数，会报错：undefined is not a function）
+
+    - 在函数作用域中，使用函数声明创建的函数，会在所有的函数中的代码执行之前就被创建好了。</code></pre><ul>
+<li><p>this（上下文对象）  </p>
+<ul>
+<li><p>我们每次调用函数时，解析器（浏览器）都会将一个上下文对象作为隐含的参数传递进函数。</p>
+<p>   使用this来引用上下文对象，根据函数的调用形式不同，this的值也不同。</p>
+</li>
+<li><p>this的不同的情况：</p>
+<p>   1.以方法的形式调用时，this就是调用方法的对象（如obj.sayName()，this是obj）</p>
+<p>   2.以函数的形式调用时，this是window（因为其实直接调用函数是省略写法，完整写法是window.fun(),所以也算调用了对象）</p>
+<p>   3.以构造函数的形式调用时，this就是新创建的对象</p>
+</li>
+</ul>
+</li>
+<li><p>使用工厂方法创建对象</p>
+<ul>
+<li>通过该方法可以大批量的创建对象</li>
+<li>使用工厂方法创建的对象，使用的构造函数都是new Object<pre><code>所以创建的对象都是Object这个类型， 
+就导致我们无法区分出多种不同类型的对象
+所以我们选择使用构造函数来创建对象</code></pre></li>
+</ul>
+</li>
+<li><p>工厂方法例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createPerson</span>(<span class="params">name , age ,gender</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">     <span class="comment">//创建一个新的对象 </span></span><br><span class="line"></span><br><span class="line">     <span class="keyword">var</span> obj = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line"></span><br><span class="line">     <span class="comment">//向对象中添加属性</span></span><br><span class="line"></span><br><span class="line">     obj.name = name;</span><br><span class="line"></span><br><span class="line">     obj.age = age;</span><br><span class="line"></span><br><span class="line">     obj.gender = gender;</span><br><span class="line"></span><br><span class="line">     <span class="comment">//将新的对象返回</span></span><br><span class="line"></span><br><span class="line">     <span class="keyword">return</span> obj;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> sasuke = createPerson(<span class="string">"佐助"</span>,<span class="number">18</span>,<span class="string">"男"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>构造函数（constructor）</p>
+<ul>
+<li><p>构造函数是专门用来创建对象的函数</p>
+</li>
+<li><p>一个构造函数我们也可以称为一个类</p>
+</li>
+<li><p>通过一个构造函数创建的对象，我们称该对象是这个构造函数的实例</p>
+</li>
+<li><p>通过同一个构造函数创建的对象，我们称为一类对象</p>
+</li>
+<li><p>构造函数就是一个普通的函数，只是他的调用方式不同，</p>
+<p>   如果直接调用，它就是一个普通函数</p>
+<p> <strong>如果使用new来调用，则它就是一个构造函数</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<p> 例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name , age , gender</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">this</span>.name = name;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">this</span>.age = age;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">this</span>.gender = gender;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> chuya = <span class="keyword">new</span> Person(<span class="string">"中原中也"</span>,<span class="number">18</span>,<span class="string">"男"</span>);</span><br></pre></td></tr></table></figure>
+
+
+<ul>
+<li><p>构造函数的执行流程：</p>
+<p>   1.创建一个新的对象</p>
+<p>   2.将新的对象作为函数的上下文对象（this），构造函数中可以使用this来引用新建的对象</p>
+<p>   3.执行函数中的代码</p>
+<p>   4.将新建的对象作为返回值返回</p>
+</li>
+</ul>
+<ul>
+<li><p>instanceof 用来检查一个对象是否是一个类的实例</p>
+<ul>
+<li><p>语法：对象 instanceof 构造函数</p>
+<ul>
+<li><p>如果该对象时构造函数的实例，则返回true，否则返回false</p>
+</li>
+<li><p>Object是所有对象的祖先，所以任何对象和Object做instanceof都会返回true</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>枚举对象中的属性</p>
+<p>   for…in</p>
+<p>   语法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> 变量 <span class="keyword">in</span> 对象)&#123;</span><br><span class="line">               <span class="built_in">console</span>.log(变量);  <span class="comment">// 属性</span></span><br><span class="line">               <span class="built_in">console</span>.log(对象[变量]);  <span class="comment">// 属性值</span></span><br><span class="line">        &#125;</span><br><span class="line"><span class="comment">//对象中有几个属性， for...in语句的循环体就会执行几次。</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>原型（prototype）</p>
+<ul>
+<li><p>创建一个函数以后，解析器都会默认在函数中添加一个属性prototype<br>  prototype属性指向的是一个对象，这个对象我们称为原型对象。</p>
+</li>
+<li><p>当函数作为构造函数使用，它所创建的对象中都会有一个隐含的属性指向该原型对象。<br>  这个隐含的属性可以通过   对象.____proto____（左右各两个下划线）来访问。</p>
+</li>
+<li><p>原型对象就相当于一个公共的区域，凡是通过同一个构造函数创建的对象,他们通常都可以访问到相同的原型对象。<br>  我们可以将对象中共有的属性和方法统一添加到原型对象中,然后通过   对象.prototype.属性/方法  去访问。</p>
+</li>
+<li><p>当我们去访问对象的一个属性或调用对象的一个方法时，它会先自身中寻找，<br>  如果在自身中找到了，则直接使用。<br>  如果没有找到，则去原型对象中寻找，如果找到了则使用，<br>  如果没有找到，则去原型的原型中寻找，依此类推。直到找到Object的原型为止，Object对象的原型的原型为null，（即object的原型，没有原型）<br>  所以在object的原型依然没有找到则返回undefined<br>  （这样可以一层一层往外找称为原型链）</p>
+</li>
+<li><p>hasOwnProperty()</p>
+<ul>
+<li>这个方法可以用来检查对象自身中是否含有某个属性，有则返回true</li>
+<li>语法：对象.hasOwnProperty(“属性名”)</li>
+<li>与in的区别：使用in检查对象中是否含有某个属性时，如果对象中没有但是原型中有，也会返回true</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>调用函数的方法：</p>
+<ul>
+<li><p>call()与apply()</p>
+<ul>
+<li><p>这两个方法都是函数对象的方法，需要通过函数对象来调用</p>
+</li>
+<li><p>通过两个方法可以直接调用函数<br>fun();  fun.call();  fun.apply();  这三个效果一致。</p>
+</li>
+<li><p>并且可以通过第一个实参来指定函数中this<br>fun.call(obj);   fun.apply(obj);<br><strong>obj即指定的this，如果不指定就是window</strong></p>
+</li>
+<li><p>不同的是call是直接传递函数的实参，而apply需要将实参封装到一个数组中传递<br>fun.call(obj,a,b);  fun.apply(obj,[a,b]);</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>arguments</p>
+</li>
+</ul>
+<p>在调用函数时，浏览器每次都会传递进两个隐含的参数：<br>1.函数的上下文对象 this   2.封装实参的对象 arguments</p>
+<pre><code>- arguments是一个类数组对象,它也可以通过索引来操作数据，也可以获取长度
+- 在调用函数时，我们所传递的实参都会在arguments中保存
+- arguments.length可以用来获取实参的长度
+
+- 我们即使不定义形参，也可以通过arguments来使用实参
+arguments[0] 表示第一个实参
+arguments[1] 表示第二个实参
+...
+- arguments中有一个属性callee表示当前执行的函数对象</code></pre><ul>
+<li>this<br>this是函数的上下文对象，根据函数的调用方式不同会执向不同的对象</li>
+</ul>
+<p>1.以函数的形式调用时，this是window<br>2.以方法的形式调用时，this是调用方法的对象<br>3.以构造函数的形式调用时，this是新建的那个对象<br>4.使用call和apply调用时，this是指定的那个对象<br>5.在全局作用域中this代表window</p>
+<h2 id="3-12-数组（Array）"><a href="#3-12-数组（Array）" class="headerlink" title="3.12 数组（Array）"></a>3.12 数组（Array）</h2><ul>
+<li><p>数组也是一个对象，是一个用来存储数据的对象<br>  和Object类似，但是它的存储效率比普通对象要高</p>
+</li>
+<li><p>数组中保存的内容我们称为元素    </p>
+</li>
+<li><p>数组使用索引（index）来操作元素（普通对象使用字符串作为属性名）</p>
+</li>
+<li><p>索引指由0开始的整数</p>
+</li>
+<li><p>typeof为object</p>
+</li>
+<li><p>数组的操作：</p>
+<ul>
+<li><p>创建数组</p>
+<ul>
+<li>var arr = new Array();</li>
+<li>var arr = [];//使用字面量</li>
+</ul>
+</li>
+<li><p>向数组中添加元素</p>
+<ul>
+<li>语法:<br>  数组对象[索引] = 值;<br>  arr[0] = 123;<br>  arr[1] = “hello”;<br>  …</li>
+</ul>
+</li>
+<li><p>创建数组时直接添加元素</p>
+<ul>
+<li>语法：<ul>
+<li>方式一：var arr = [元素1,元素2….元素N];（建议使用）</li>
+<li>例子：<br>  var arr = [123,”hello”,true,null,对象，函数，数组…];<br>  //数组元素可以是任意类型 。 如果是放数组则是二维数组。</li>
+<li>方式二：var arr = new Array(元素1,元素2….元素N);<br>//将要添加的元素作为构造函数的参数</li>
+</ul>
+  <strong>注意当只有一个元素的时候，方式一表示只有这个元素，方式二表示长度</strong>。</li>
+</ul>
+</li>
+<li><p>获取和修改数组的长度</p>
+<ul>
+<li>使用length属性来操作数组的长度</li>
+<li>获取长度：<br>  数组.length<ul>
+<li>length获取到的是数组的最大索引+1</li>
+<li>对于连续的数组，length获取到的就是数组中元素的个数</li>
+</ul>
+</li>
+<li>修改数组的长度<br>  数组.length = 新长度<pre><code>- 如果修改后的length大于原长度，则多出的部分会空出来
+- 如果修改后的length小于原长度，则原数组中多出的元素会被删除</code></pre></li>
+<li>向数组的最后添加元素<br>  数组[数组.length] = 值;（length 比最后的索引+1）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数组的方法</p>
+<ul>
+<li><p>push()</p>
+<ul>
+<li>用来向数组的末尾添加一个或多个元素，并返回数组新的长度(返回值)</li>
+<li>语法：数组.push(元素1,元素2,元素N)</li>
+</ul>
+</li>
+<li><p>pop()</p>
+<ul>
+<li>用来删除数组的最后一个元素，并返回被删除的元素</li>
+</ul>
+</li>
+<li><p>unshift()</p>
+<ul>
+<li>向数组的前边添加一个或多个元素，并返回数组的新的长度</li>
+</ul>
+</li>
+<li><p>shift()</p>
+<ul>
+<li>删除数组的前边的一个元素，并返回被删除的元素</li>
+</ul>
+<p>  <strong>注意操作前面的元素会影响后边元素的索引</strong></p>
+</li>
+<li><p>slice()</p>
+<ul>
+<li>可以从一个数组中截取指定的元素</li>
+<li>该方法不会影响原数组，而是将截取到的内容封装为一个新的数组并返回</li>
+<li>参数：<br>  1.截取开始位置的索引（包括开始位置）<br>  2.截取结束位置的索引（不包括结束位置）<ul>
+<li>第二个参数可以省略不写，如果不写则一直截取到最后</li>
+<li>参数可以传递一个负值，如果是负值，则从后往前数（倒数）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>splice()</p>
+<ul>
+<li>可以用来删除数组中指定元素，并使用新的元素替换<br>  该方法会将删除的元素封装到新数组中返回<br>  （要考虑到补位改变了索引的问题）</li>
+<li>参数：<br>  1.删除开始位置的索引<br>  2.删除的个数<br>  3.第三个及以后，都是替换的元素，这些元素将会插入到开始位置索引的前边</li>
+</ul>
+</li>
+<li><p>reverse()</p>
+<ul>
+<li>可以用来反转一个数组，它会对原数组产生影响</li>
+</ul>
+</li>
+<li><p>concat()</p>
+<ul>
+<li>可以连接两个或多个数组（也可以是元素），新的数组或元素作为参数，用逗号隔开。它不会影响原数组，而是新数组作为返回值返回</li>
+</ul>
+</li>
+<li><p>join()</p>
+<ul>
+<li><p>可以将一个数组转换为一个字符串</p>
+</li>
+<li><p>参数：</p>
+<p>需要一个字符串作为参数，这个字符串将会作为连接符来连接数组中的元素</p>
+<p>如果不指定连接符则默认使用逗号</p>
+</li>
+</ul>
+</li>
+<li><p>sort()</p>
+<ul>
+<li><p>可以对一个数组中的内容进行排序，默认是按照Unicode编码进行排序</p>
+</li>
+<li><p>会直接修改原数组。</p>
+</li>
+<li><p>可以自己指定排序的规则，需要一个回调函数作为参数：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;  <span class="comment">//回调函数中需要定义两个形参</span></span><br><span class="line"></span><br><span class="line">             <span class="comment">//升序排列</span></span><br><span class="line"></span><br><span class="line">             <span class="keyword">return</span> a-b;</span><br><span class="line"></span><br><span class="line">             <span class="comment">//降序排列</span></span><br><span class="line"></span><br><span class="line">             <span class="keyword">return</span> b-a;</span><br><span class="line"></span><br><span class="line">         &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>filter()</p>
+<pre><code>- 检测数组元素，并返回符合条件的所有元素组成的新数组。
+- filter() 不会对空数组进行检测，也不会改变原始数组。
+- 语法：array.filter(function(currentValue,index,arr), thisValue)
+
+- 解析：
+function：必须。函数，数组中的每个元素都会执行这个函数
+currentValue：必须。当前元素的值
+index：可选。当前元素的索引值
+arr：可选。当前元素属于的数组对象
+thisValue：可选。对象作为该执行回调时使用，传递给函数，用作 &quot;this&quot; 的值。如果省略了 thisValue ，&quot;this&quot; 的值为 &quot;undefined&quot;
+- 示例：</code></pre><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//返回数组 ages 中所有元素都大于 18 的元素:</span></span><br><span class="line"><span class="keyword">var</span> ages = [<span class="number">32</span>, <span class="number">33</span>, <span class="number">16</span>, <span class="number">40</span>];</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">checkAdult</span>(<span class="params">age</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> age &gt;= <span class="number">18</span>;</span><br><span class="line">&#125;</span><br><span class="line">alert(ages.filter(checkAdult));</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出结果为:32,33,40</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>遍历数组</p>
+<ul>
+<li><p>遍历数组就是将数组中元素都获取到</p>
+</li>
+<li><p>一般情况我们都是使用for循环来遍历数组：<br>  for(var i=0 ; i&lt;数组.length ; i++){</p>
+<pre><code>//数组[i]</code></pre><p>  }</p>
+</li>
+<li><p>使用forEach()方法来遍历数组（不兼容IE8及以下）</p>
+<p>  数组.forEach(function(value , index , obj){</p>
+<p>  });<br>  //像这种由我们创建但不由我们调用而是浏览器调用的函数我们称为回调函数。<br>  forEach()方法需要一个回调函数作为参数，</p>
+<pre><code>数组中有几个元素，回调函数就会被调用几次，
+每次调用时，都会将遍历到的信息以实参的形式传递进来，
+我们可以定义形参来获取这些信息。
+浏览器会在回调函数中传递三个参数：
+value:正在遍历的元素
+index:正在遍历元素的索引
+obj:被遍历数组对象</code></pre></li>
+</ul>
+</li>
+<li><p>检查是否是数组：</p>
+<ul>
+<li>Array.isArray();<br>参数即被检查内容，返回true即是，返回false即否</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-13-Date（函数对象）"><a href="#3-13-Date（函数对象）" class="headerlink" title="3.13 Date（函数对象）"></a>3.13 Date（函数对象）</h2><ul>
+<li><p>日期的对象，在JS中通过Date对象来表示一个时间</p>
+</li>
+<li><p>创建对象</p>
+<ul>
+<li><p>创建一个当前的时间对象</p>
+<p>  var d = new Date();//函数对象</p>
+</li>
+<li><p>创建一个指定的时间对象</p>
+<p>  var d = new Date(“月/日/年 时:分:秒”);</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>方法：</p>
+<p>   getDate()</p>
+<pre><code>- 当前日期对象是几日（1-31）</code></pre></li>
+</ul>
+<pre><code>getDay() 
+
+    - 返回当前日期对象时周几（0-6）
+
+        - 0 周日
+
+        - 1 周一 
+
+getMonth()
+
+    - 返回当前日期对象的月份（0-11）
+
+    - 0 一月 1 二月...
+
+getFullYear() 从 Date 对象以四位数字返回年份。 
+
+
+
+getHours() 返回 Date 对象的小时 (0 ~ 23)。 
+
+getMinutes() 返回 Date 对象的分钟 (0 ~ 59)。 
+
+getSeconds() 返回 Date 对象的秒数 (0 ~ 59)。 
+
+getMilliseconds() 返回 Date 对象的毫秒(0 ~ 999)。 
+
+
+
+getTime()
+
+    - 返回当前日期对象的时间戳(时间差)
+
+    - 时间戳，指的是从格林威治标准时间1970年1月1日 0时0分0秒（跟北京时间有8小时时间差），到现在时间的毫秒数的差值
+           （一秒 = 1000 毫秒）
+        计算机底层保存时间都是以时间戳的形式保存的。
+
+    - 转换：var time = x.getTime();   time/1000/60//60/24/365(算出相应的秒，分，时，天，年)
+
+Date.now()
+
+    - 可以获取当前代码执行时的时间戳</code></pre><ul>
+<li>时间戳也可以用来测试代码性能</li>
+</ul>
+<h2 id="3-14-Math（普通对象）"><a href="#3-14-Math（普通对象）" class="headerlink" title="3.14 Math（普通对象）"></a>3.14 Math（普通对象）</h2><pre><code>- Math属于一个工具类，它不需要我们创建对象，它里边封装了数学运算相关的属性（常量，大写的属性一般是常量）和方法
+
+- 方法：
+
+     Math.PI
+
+         - 常量，圆周率
+
+     Math.abs()
+
+         - 绝对值运算  absolute
+
+     Math.ceil()
+
+         - 向上取整
+
+     Math.floor()
+
+         - 向下取整
+
+     Math.round()
+
+         - 四舍五入取整
+
+     Math.random()    
+
+         - 生成一个0-1之间的随机数(不包括0和1)
+
+         - 生成一个x-y之间的随机整数（包括x和y,因为四舍五入的关系）
+
+             Math.round(Math.random()*(y-x)+x);
+
+     Math.pow(x,y)
+
+         - 求x的y次幂
+
+     Math.sqrt()
+
+         - 对一个数进行开方
+
+     Math.max()
+
+         - 求多个数中最大值
+
+     Math.min()
+
+         - 求多个数中的最小值</code></pre><h2 id="3-16-包装类"><a href="#3-16-包装类" class="headerlink" title="3.16 包装类"></a>3.16 包装类</h2><ul>
+<li><p>在JS中为我们提供了三个包装类(构造函数)：</p>
+<p>   String() Boolean() Number()</p>
+<ul>
+<li><p>通过这三个包装类可以创建基本数据类型的对象</p>
+<p>例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num = <span class="keyword">new</span> <span class="built_in">Number</span>(<span class="number">2</span>);</span><br><span class="line"><span class="comment">//将基本数据类型字符串转换成String对象</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="keyword">new</span> <span class="built_in">String</span>(<span class="string">"hello"</span>);</span><br><span class="line"><span class="keyword">var</span> bool = <span class="keyword">new</span> <span class="built_in">Boolean</span>(<span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>但是在实际应用中不会用到基本数据类型对象。而是计算机底层自己用的。如下：</p>
+<ul>
+<li>当我们去操作一个基本数据类型的属性和方法时，解析器会临时将其转换为对应的包装类，然后再去操作属性和方法，（方法和属性只能添加给对象，不能添加给基本数据类型）操作完成以后再将这个临时对象进行销毁。      </li>
+</ul>
+</li>
+</ul>
+<h2 id="3-16-String对象的属性和方法："><a href="#3-16-String对象的属性和方法：" class="headerlink" title="3.16 String对象的属性和方法："></a>3.16 String对象的属性和方法：</h2><p>当我们调用String对象的属性和方法时，因为解析器会自动将基本数据类型字符串临时转换成String对象，所以字符串也可以直接使用这些属性和方法。</p>
+<ul>
+<li><p>属性：length（获取字符串的长度）<br>   在底层字符串是以字符数组的形式保存的（将字符串拆分成一个个字符）。</p>
+</li>
+<li><p>方法：（不会影响本身，是返回一个值） 有些方法和数组是类似的。</p>
+<ul>
+<li><p>concat()</p>
+<ul>
+<li>连接字符串，不如+好使</li>
+</ul>
+</li>
+<li><p>charAt()</p>
+<ul>
+<li>根据索引获取指定的字符</li>
+</ul>
+</li>
+<li><p>charCodeAt()</p>
+<ul>
+<li>根据索引获取指定的字符编码（Unicode编码）</li>
+</ul>
+</li>
+<li><p>String.fromCharCode()</p>
+<ul>
+<li>根据字符编码获取字符</li>
+</ul>
+</li>
+<li><p>indexOf()和lastIndexOf()</p>
+<ul>
+<li><p>从一个字符串中检索指定内容</p>
+</li>
+<li><p>需要一个字符串作为参数，这个字符串就是要检索的内容，</p>
+<p>  如果找到该内容，则会返回其第一次出现的索引，如果没有找到则返回-1。</p>
+</li>
+<li><p>可以指定一个第二个参数，来表示开始查找的位置</p>
+</li>
+<li><p>indexOf()是从前向后找</p>
+</li>
+<li><p>lastIndexOf()是从后向前找</p>
+</li>
+</ul>
+</li>
+<li><p>slice()</p>
+<ul>
+<li><p>可以从一个字符串中截取指定的内容，并将截取到内容返回，不会影响原字符串</p>
+</li>
+<li><p>参数：</p>
+<p>  第一个：截取开始的位置（包括开始）</p>
+<p>  第二个：截取结束的位置（不包括结束）</p>
+<ul>
+<li><p>可以省略第二个参数，如果省略则一直截取到最后</p>
+</li>
+<li><p>可以传负数，如果是负数则从后往前数（倒数）</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>substr() </p>
+<ul>
+<li>和slice()基本一致，不同的是它第二个参数不是索引，而是截取的数量</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>- substring()
+
+     - 和slice()基本一致，不同的是它不能接受负值作为参数，如果设置一个负值，则会自动修正为0，
+
+         substring()中如果第二个参数小于第一个，自动调整位置
+
+- toLowerCase() 
+
+     - 将字符串转换为小写并返回
+
+- toUpperCase() 
+
+     - 将字符串转换为大写并返回
+
+- split()
+
+     - 可以根据指定内容将一个字符串拆分为一个数组
+
+     - 参数：
+
+         - 需要一个字符串作为参数，将会根据字符串去拆分数组
+         - 如果传的是空串，则每个字符用逗号隔开
+         - 可以接收一个正则表达式，此时会根据正则表达式去拆分数组
+
+            - 正则表达式没有设置全局g也会全部拆分
+
+
+- match() 
+
+     - 可以将字符串中和正则表达式匹配的内容提取出来
+
+     - 参数：
+
+         - 正则表达式，可以根据该正则表达式将字符串中符合要求的内容提取出来,且封装到一个数组中返回
+     - 默认情况下match只会找到第一个符合要求的内容，找到以后就停止检索，我们可以设置正则表达式为全局匹配模式，这样就会匹配到所有的内容
+
+
+- replace()  
+    - 可以将字符串中指定内容替换为新的内容
+
+    - 参数：
+
+        - 第一个：被替换的内容，可以是一个正则表达式
+
+        - 第二个：替换的新内容，如果设置为空串则相当于删除
+
+    - 默认只会替换第一个，也是可以设置全局通配
+
+
+- search() 
+    - 可以根据正则表达式去字符串中查找指定的内容
+
+    - 参数：
+    正则表达式，将会根据该表达式查询内容，并且将第一个匹配到的内容的索引返回，如果没有匹配到任何内容，则返回-1。     
+    - serach()只会查找第一个，即使设置全局匹配也没用
+    - 与match（）区别：match（）返回的是数组，serach（）返回的是索引
+
+- trim()
+    - 不会改变原始字符串。
+    - 返回值：返回移除头尾空格的字符串。</code></pre><h2 id="3-17-正则表达式"><a href="#3-17-正则表达式" class="headerlink" title="3.17 正则表达式"></a>3.17 正则表达式</h2><ul>
+<li><p>正则用来定义一些字符串的规则，程序可以根据这些规则来判断一个字符串是否符合规则， 也可以将一个字符串中符合规则的内容提取出来。</p>
+</li>
+<li><p>Regular Expression，在代码中常简写为regex、regexp或RE</p>
+</li>
+<li><p>创建正则表达式对象：</p>
+<ul>
+<li><p>var reg = new RegExp(“正则表达式”,”匹配模式”);</p>
+</li>
+<li><p>var reg = /正则表达式/匹配模式;（字面量）</p>
+</li>
+</ul>
+</li>
+<li><p>直接写//里面是表示含有，^ 表示开始，$ 表示结束，这两个写上则表示需完全符合正则表达式规则。</p>
+</li>
+<li><p>语法：</p>
+<ul>
+<li><p>匹配模式：</p>
+<p>   i:忽略大小写</p>
+<p>   g:全局匹配模式（检测到了还是会继续检测，即全部检测一遍）</p>
+<p>  设置匹配模式时，可以都不设置，也可以设置1个，也可以全设置，设置时没有顺序要求。</p>
+</li>
+<li><p>正则语法 :    </p>
+<p>   | 或</p>
+<p>   [ ] 或</p>
+<p>   [^ ] 除了</p>
+<p>   [a-z] 任意小写字母</p>
+<p>   [A-Z] 任意大写字母</p>
+<p>   [A-z] 任意字母</p>
+<p>   [0-9] 任意数字</p>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>- 量词（设置出现的次数，只对其前边一个内容起作用，想要对多个内容起作用可以用括号表示整体）
+
+    {n} 正好n次
+
+    {m,n} m-n次
+
+    {m,} 至少m次
+
+    +   至少1次 相当于{1,}
+
+    ?   0次或1次 相当于{0,1}
+
+    *   0次或多次 相当于{0,}   可有可无的意思
+
+
+
+- 转义字符
+
+    \ 在正则表达式中使用\作为转义字符
+    （注意在使用构造函数创建正则表达式的时候，因为是写在字符串中，而\在字符串中也表示转义字符，想要表示\需要写\\）
+
+    \\. 表示.
+
+    \\\ 表示\
+
+    . 表示任意字符
+
+    \w
+
+        - 相当于[A-z0-9_]   任意字母，数字，下划线
+
+    \W
+
+        - 相当于[^A-z0-9_]
+
+    \d
+
+        - 任意数字
+
+    \D
+
+        - 除了数字
+
+    \s
+
+        - 空格
+
+    \S
+
+        - 除了空格
+
+    \b
+
+        - 单词边界  如/\bchild\b/  检查是否含有单词child
+        - 举例：children  和 child 的区别
+
+    \B
+
+        - 除了单词边界</code></pre><ul>
+<li><p>方法：</p>
+<p>   test()</p>
+<pre><code>- 可以用来检查一个字符串是否符合正则表达式
+
+- 如果符合返回true，否则返回false</code></pre></li>
 </ul>
 
       
@@ -300,19 +1594,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">vuejs</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">安装</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
         		</li>
       		
 		</ul>
@@ -368,7 +1658,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/12/vuejs-安装与使用/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/04/22/JavaScript-ES-学习笔记/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -382,18 +1672,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/11/12/用hexo搭建个人博客/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/04/22/BOM学习笔记/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          用hexo搭建个人博客
+          BOM学习笔记
         
       </div>
     </a>
   
   
-    <a href="/2019/10/28/CSS学习笔记/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">CSS学习笔记</div>
+    <a href="/2020/04/22/编码/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">编码</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -420,7 +1710,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#前言："><span class="toc-number">1.</span> <span class="toc-text">前言：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-简单介绍："><span class="toc-number">2.</span> <span class="toc-text">1.简单介绍：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-环境配置："><span class="toc-number">3.</span> <span class="toc-text">2. 环境配置：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-vuejs需要用到的插件："><span class="toc-number">3.1.</span> <span class="toc-text">2.1 vuejs需要用到的插件：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-安装方式之一：NPM-命令行工具CLI："><span class="toc-number">3.2.</span> <span class="toc-text">2.2 安装方式之一：NPM+命令行工具CLI：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-创建项目："><span class="toc-number">4.</span> <span class="toc-text">3. 创建项目：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-创建vue项目（如helloworld）："><span class="toc-number">4.1.</span> <span class="toc-text">3.1 创建vue项目（如helloworld）：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-项目内部结构详解："><span class="toc-number">4.2.</span> <span class="toc-text">3.2 项目内部结构详解：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-扩展："><span class="toc-number">4.3.</span> <span class="toc-text">3.3 扩展：</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-语言概念："><span class="toc-number">1.</span> <span class="toc-text">1. 语言概念：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-JavaScript简介："><span class="toc-number">2.</span> <span class="toc-text">2. JavaScript简介：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-起源："><span class="toc-number">2.1.</span> <span class="toc-text">2.1 起源：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-组成："><span class="toc-number">2.2.</span> <span class="toc-text">2.2 组成：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-特点："><span class="toc-number">2.3.</span> <span class="toc-text">2.3 特点：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-JavaScript语法：-ES"><span class="toc-number">3.</span> <span class="toc-text">3. JavaScript语法：(ES)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-编写位置（从上到下执行）："><span class="toc-number">3.1.</span> <span class="toc-text">3.1 编写位置（从上到下执行）：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-输出语句："><span class="toc-number">3.2.</span> <span class="toc-text">3.2 输出语句：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-js注释："><span class="toc-number">3.3.</span> <span class="toc-text">3.3 js注释：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-编写规则："><span class="toc-number">3.4.</span> <span class="toc-text">3.4 编写规则：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-5-字面量和变量："><span class="toc-number">3.5.</span> <span class="toc-text">3.5 字面量和变量：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-6-标识符："><span class="toc-number">3.6.</span> <span class="toc-text">3.6 标识符：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-7-数据类型-字面量的类型-："><span class="toc-number">3.7.</span> <span class="toc-text">3.7 数据类型(字面量的类型)：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-8-运算符："><span class="toc-number">3.8.</span> <span class="toc-text">3.8 运算符：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-9-流程控制语句"><span class="toc-number">3.9.</span> <span class="toc-text">3.9 流程控制语句:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-10-对象（Object）"><span class="toc-number">3.10.</span> <span class="toc-text">3.10 对象（Object）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-11-函数（Function）"><span class="toc-number">3.11.</span> <span class="toc-text">3.11 函数（Function）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-12-数组（Array）"><span class="toc-number">3.12.</span> <span class="toc-text">3.12 数组（Array）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-13-Date（函数对象）"><span class="toc-number">3.13.</span> <span class="toc-text">3.13 Date（函数对象）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-14-Math（普通对象）"><span class="toc-number">3.14.</span> <span class="toc-text">3.14 Math（普通对象）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-16-包装类"><span class="toc-number">3.15.</span> <span class="toc-text">3.16 包装类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-16-String对象的属性和方法："><span class="toc-number">3.16.</span> <span class="toc-text">3.16 String对象的属性和方法：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-17-正则表达式"><span class="toc-number">3.17.</span> <span class="toc-text">3.17 正则表达式</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>
@@ -445,7 +1735,7 @@
 <script src="https://billts.site/js/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-  id: "http://yoursite.com/2019/11/12/vuejs-安装与使用/",
+  id: "http://yoursite.com/2020/04/22/JavaScript-ES-学习笔记/",
   owner: 'clownna',
   repo: 'clownna.github.io',
   oauth: {
@@ -551,11 +1841,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+                <a href="javascript:void(0)" class="js-tag color4">BOM</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -563,19 +1849,43 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">CSS</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">vuejs</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">安装</a>
+                <a href="javascript:void(0)" class="js-tag color4">DOM</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">HTML</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">JSON</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">less</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">vue</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">前端</a>
               </li>
              
               <li class="article-tag-list-item">

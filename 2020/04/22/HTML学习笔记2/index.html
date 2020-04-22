@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: vuejs | Clownna</title>
+  <title>HTML学习笔记2 | Clownna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Clownna">
-<meta property="og:url" content="http://yoursite.com/tags/vuejs/index.html">
+  <meta name="description" content="1. HTML简介：">
+<meta name="keywords" content="学习,笔记,HTML">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML学习笔记2">
+<meta property="og:url" content="http://yoursite.com/2020/04/22/HTML学习笔记2/index.html">
 <meta property="og:site_name" content="Clownna">
+<meta property="og:description" content="1. HTML简介：">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-04-22T06:35:31.910Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Clownna">
+<meta name="twitter:title" content="HTML学习笔记2">
+<meta name="twitter:description" content="1. HTML简介：">
   
     <link rel="alternative" href="/atom.xml" title="Clownna" type="application/atom+xml">
   
@@ -134,74 +139,369 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-HTML学习笔记2" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-
-<a href="/2019/11/12/vuejs-安装与使用/" class="archive-article-date">
-<time datetime="2019-11-12T06:21:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-12</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/12/vuejs-安装与使用/">vuejs_安装与使用</a>
+    <h1 class="article-title" itemprop="name">
+      HTML学习笔记2
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        
+      <!-- 不蒜子统计 -->
+      <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+            <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+
+<a href="/2020/04/22/HTML学习笔记2/" class="archive-article-date">
+<time datetime="2020-04-22T06:26:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h1 id="1-HTML简介："><a href="#1-HTML简介：" class="headerlink" title="1. HTML简介："></a>1. HTML简介：</h1><a id="more"></a>
+<p>超文本标记语言（Hypertext MarKup Language）</p>
+<ul>
+<li>版本：在最上方添加doctype声明，告诉浏览器使用的HTML版本</li>
+<li>html5的版本声明：&lt;！doctype html&gt;</li>
+</ul>
+<h1 id="2-HTML语法："><a href="#2-HTML语法：" class="headerlink" title="2. HTML语法："></a>2. HTML语法：</h1><h2 id="2-1-标签："><a href="#2-1-标签：" class="headerlink" title="2.1 标签："></a>2.1 标签：</h2><ul>
+<li>根标签：&lt;html&gt;&lt;/html&gt;（一个页面中有且只有一个根标签）</li>
+<li>子标签：<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>&lt;title&gt;:显示在浏览器的标题栏，搜索引擎在检索页面时，会首先检索title，会影响到页面在搜索引擎中的排名。</strong></p>
+<ul>
+<li>meta标签：设置网页的元数据，例如字符集，关键字，网页描述，请求的重定向。<br>写法：&lt;meta name=”” content=”” /&gt;<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"秒数;url=目标路径"</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!--  请求重定向 --&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>搜索引擎检索页面时，会同时检索页面中的keywords和description，但不影响排名。</strong></p>
+<ul>
+<li><p>自结束标签，可以在末尾添加一个“/”也可以不要</p>
+</li>
+<li><p>语义化标签：因为是语义化标签，所以我们关心的不是其表现形式，而是其代表的语义。<br>比如h1~h6，我们不关心其文字大小，而是其代表的层级关系。对于搜索引擎来说，h1的重要性仅次于title,会影响到页面在搜索引擎中的排名。<br>一般只写一个h1,而h3以后的标题标签不使用。</p>
+</li>
+<li><p>空格与换行：在HTML中，字符间的空格与换行都会当成一个空格解析</p>
+</li>
+<li><p>特殊字符：&amp;实体名字；（转义字符串）</p>
+</li>
+<li><p>图片宽高：应交给美工裁剪，而不自己设置。<br>属性：src（图片路径，可以是相对路径也可以是绝对路径）alt（图片描述，搜索引擎通过alt属性识别不同图片）<br>width(宽度) height(高度)</p>
+</li>
+<li><p>路径：../:表示返回上一级目录，返回几级写几个../<br>相对路径：相对于某个文件夹的位置（写在哪里就是相对于哪个文件夹）<br>绝对路径：绝对地址</p>
+</li>
+<li><p>常见图片格式：<br>JPEG(JPG):一般用于保存照片等颜色丰富的图片（可压缩）<br>GIF:一般用于保存颜色单一的图片或者动态图片<br>PNG:颜色复杂，支持透明</p>
+</li>
+</ul>
+<p><strong>选择图片格式原则：效果一样，选择小的；效果不一样，选择好的</strong></p>
+<ul>
+<li><p>语法规范：一般使用小写；注释不嵌套；其他标签可以嵌套，不可交叉嵌套；结构完整（成对出现/自结束）</p>
+</li>
+<li><p>内联框架&lt;iframe&gt;：引入外部页面(不推荐使用，其内容不被搜索引擎所检索)<br>属性：src（页面路径，可以是相对路径也可以是绝对路径）width(宽度) height(高度) name</p>
+</li>
+<li><p>center标签：居中</p>
+</li>
+<li><p>注释：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 注释 --&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>所有纯表现的标签都不推荐使用，而推荐使用css。</strong></p>
+<ul>
+<li><p>超链接：地址不确定时，可以用“#”作为占位符,会自动回到页面顶部</p>
+<ul>
+<li>发送邮件：href=”mailto:邮箱地址”，点击链接会自动打开计算机默认的邮件客户端，并且会将收件人设置为邮箱地址（现在一般是设置为二维码）<br>属性：href（目标路径，可以是相对路径也可以是绝对路径）</li>
+<li>target(打开链接位置):<br>_self(在当前位置打开),_blank(在新的窗口打开)，或者为iframe标签中的name属性(在内联框架中打开)</li>
+</ul>
+</li>
+<li><p>&lt;em&gt;：强调语气上的着重点（表现为斜体）<br>同样表现为斜体的还有&lt;i&gt;（无语义）</p>
+</li>
+<li><p>&lt;strong&gt;：强调内容的重要性（表现为粗体）<br>同样表现为粗体的还有&lt;b&gt;（无语义）</p>
+</li>
+<li><p>&lt;small&gt;：表现为比父元素小一些<br>在h5中用来表示一些细则类的内容。如合同小字，版权声明等</p>
+</li>
+<li><p>&lt;cite&gt;：用来表示引用参考的内容（表现为斜体）<br>比如书，电影，话剧，歌等的名称。</p>
+</li>
+<li><p>&lt;q&gt;：短的引用，即行内引用（表现为加上双引号）</p>
+</li>
+<li><p>&lt;blockquote&gt;：长的引用，即块级引用（表现为独占一行）</p>
+</li>
+<li><p>&lt;sup&gt;：下标，比如幂，备注等</p>
+</li>
+<li><p>&lt;sub&gt;：上标，比如化学元素等</p>
+</li>
+<li><p>&lt;ins&gt;：下划线，插入内容（比如填空等）</p>
+</li>
+<li><p>&lt;del&gt;：删除线，删除内容（比如降价等）</p>
+</li>
+<li><p>&lt;pre&gt;：预格式</p>
+</li>
+<li><p>&lt;code&gt;：代码</p>
+</li>
+</ul>
+<p><strong>一般&lt;pre&gt;与&lt;code&gt;结合使用来表示一段代码</strong></p>
+<ul>
+<li><p>&lt;span&gt;：span用来选中文字，为其设置样式</p>
+</li>
+<li><p>块元素：多用于网页布局。独占一行，可设置宽高（div,p,h1-h6,li,ul,ol,table…）</p>
+</li>
+<li><p>内联元素：只占自身大小，不可设置宽高，多用于选中文字设置样式（a,iframe,span…）</p>
+</li>
+<li><p>行内块元素：只占自身大小，可设置宽高（input）</p>
+</li>
+</ul>
+<h2 id="2-2-文档流"><a href="#2-2-文档流" class="headerlink" title="2.2 文档流"></a>2.2 文档流</h2><ul>
+<li><p>所有的元素默认情况下都是在文档流中存在的</p>
+<ul>
+<li><p>文档流是网页的最底层</p>
+</li>
+<li><p>元素在文档流中的特点：</p>
+<ul>
+<li><p>块元素</p>
+<p>1.默认宽度是父元素的全部（独占一行）</p>
+<p>2.默认高度被内容（子元素）撑开</p>
+<p>3.在页面中自上而下垂直排列</p>
+</li>
+<li><p>内联元素</p>
+<p>1.默认高度和宽度都被内容撑开（只占自身大小）</p>
+<p>2.在页面中自左向右水平排列，如果一行不足以容下所有的元素，则换到下一行继续从左向右</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>一般用块元素去包含内联元素</strong><br><strong>a元素可以包含任意元素，除了本身</strong><br><strong>p元素不可以包含任何块元素</strong></p>
+<h2 id="2-3-属性："><a href="#2-3-属性：" class="headerlink" title="2.3 属性："></a>2.3 属性：</h2><ul>
+<li><p>属性：写在开始标签中，设置样式，结构：名值对 </p>
+</li>
+<li><p>写法：属性名=“属性值”</p>
+</li>
+<li><p>charset属性：字符集</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span> /&gt;</span> </span><br><span class="line"><span class="comment">&lt;!--告诉浏览器网页所采用的编码字符集是utf-8--&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>全局属性：所有标签可以设置<br>唯一标识：id（与<a>标签配合使用，href=“#id名称”，会跳转到相应id位置）<br>title ： 鼠标滑过会显示提示文字</a></p>
+</li>
+</ul>
+<h2 id="2-4-乱码："><a href="#2-4-乱码：" class="headerlink" title="2.4 乱码："></a>2.4 乱码：</h2><ul>
+<li>乱码：编码和解码所采用的字符集不同</li>
+<li>（计算机是二进制编码，只识别0,1）</li>
+<li>字符集：编码和解码（进制的转换）所采用的规则</li>
+<li>常见的字符集：ASCII(美国),ISO-8859-1(欧洲),GBK（中国）,GB2312(中国系统默认编码),UTF-8(通用，国际性),ANSI(自动以系统的默认编码来保存文件)</li>
+<li>Unicode包括utf-8等<blockquote>
+<p>在中文系统的浏览器中，默认使用GB2312进行解码</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p><em>进制：满几进1（进1即进位数）</em></p>
+<ul>
+<li>二进制：0,1<br>10,11,100,101,110,111…</li>
+<li>八进制：0,1,2,3,4,5,6,7<br>10,11,12,13,14,15,16,17,20,21…</li>
+<li>十进制：0,1,2,3,4,5,6,7,8,9<br>10,11,12,13,14…</li>
+<li>十六进制:0,1,2,3,4,5,6,7,8,9，a,b,c,d,e,f</li>
+</ul>
+<p><strong>使用a,b,c,d,e,f分别表示10,11,12,13,14,15</strong><br>10,11,12,13,14,15,16,17,18,19.1a,1b,1c…</p>
+</blockquote>
+<h2 id="2-5-列表："><a href="#2-5-列表：" class="headerlink" title="2.5 列表："></a>2.5 列表：</h2><p><strong>列表的type属性可以设置排序类型，但我们一般不用，因为不同浏览器显示效果不一致。甚至默认的我们也会取消掉（list-style：none），为了实现在所有的浏览器显示效果一致。然后通过为li设置背景图片的方式来体现排序类型。</strong></p>
+<ul>
+<li>&lt;ul&gt;：无序  导航条</li>
+<li>&lt;ol&gt;：有序   type属性：1，A/a,  I/i  </li>
+<li>&lt;li&gt;：列表项</li>
+<li>&lt;dl&gt;：定义列表   下拉菜单</li>
+<li>&lt;dt&gt;：被定义的内容</li>
+<li>&lt;dd&gt;：对定义内容的描述</li>
+</ul>
+<p><strong>列表间可以互相嵌套。</strong></p>
+<h2 id="2-6-表格："><a href="#2-6-表格：" class="headerlink" title="2.6 表格："></a>2.6 表格：</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 表格头部，永远显示在表格的头部--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">thead</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- th表示标题--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">th</span>&gt;</span><span class="tag">&lt;/<span class="name">th</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">thead</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 表格底部，永远显示在表格的底部（写在前面是为了方便编辑）--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tfoot</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- tr表示行，td表示单元格，rowspan表示合并行--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">rowspan</span>=<span class="string">" "</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tfoot</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 表格主体--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tbody</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- colspan表示合并列--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">" "</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>如果表格中没有写tbody，浏览器会自动在表格中添加tbody。<br>并且将所有的tr都放到tbody中，所以注意tr并不是table的子元素，而是tbody的子元素。</strong></p>
+<h2 id="2-7-表单："><a href="#2-7-表单：" class="headerlink" title="2.7 表单："></a>2.7 表单：</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--表单的作用就是用来将用户信息提交给服务器的 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!--form标签中必须指定一个action属性，该属性指向的是一个服务器的地址,当我们提交表单时将会提交到action属性对应的地址--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">" "</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--在表单中可以使用fieldset来为表单项进行分组--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">fieldset</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 在fieldset可以使用legend子标签，来指定组名 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">legend</span>&gt;</span>用户信息<span class="tag">&lt;/<span class="name">legend</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">        如果希望表单项中的数据会提交到服务器中，还必须给表单项指定一个name属性</span></span><br><span class="line"><span class="comment">        name表示提交内容的名字（后台通过name名获取到相应的值） </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">        用户填写的信息会附在url地址的后边以查询字符串的形式发送给服务器，即url地址?查询字符串</span></span><br><span class="line"><span class="comment">        查询字符串格式：属性名=属性值&amp;属性名=属性值...</span></span><br><span class="line"><span class="comment">        --&gt;</span>        </span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!-- </span></span><br><span class="line"><span class="comment">        label标签专门用来选中表单中的提示文字的（方便为其设置样式）</span></span><br><span class="line"><span class="comment">        该标签可以指定一个for属性，该属性的值与表单项的id值（input的id值）一致</span></span><br><span class="line"><span class="comment">        当我们点击提示文字也可以选中相应的项（获取焦点）</span></span><br><span class="line"><span class="comment">        --&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--表单项 </span></span><br><span class="line"><span class="comment">        input是自结束标签</span></span><br><span class="line"><span class="comment">        文本框type="text"--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"username"</span>&gt;</span>用户名<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"username"</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"username"</span>  <span class="attr">value</span>=<span class="string">"默认值"</span> <span class="attr">placeholder</span>=<span class="string">"提示文字（水印）"</span>/&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--密码框type="password"--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"pwd"</span>&gt;</span>密码<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"pwd"</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"password"</span> /&gt;</span> <span class="tag">&lt;<span class="name">br</span> /&gt;</span><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--文本域&lt;textarea</span></span><br><span class="line"><span class="comment">        --&gt;</span></span><br><span class="line">        自我介绍  <span class="tag">&lt;<span class="name">textarea</span> <span class="attr">name</span>=<span class="string">"info"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">fieldset</span> &gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">legend</span>&gt;</span>用户详情<span class="tag">&lt;/<span class="name">legend</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--单选按钮type="radio"</span></span><br><span class="line"><span class="comment">        单选按钮通过name属性进行分组，name属性相同是一组按钮</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">        像这种需要用户选择但是不需要用户直接填写内容的表单项，</span></span><br><span class="line"><span class="comment">        还必须指定一个value属性，这样被选中的表单项的value属性值将会最终提交给服务器</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">        默认选中：checked="checked"</span></span><br><span class="line"><span class="comment">        默认不可用：disabled=“disabled”</span></span><br><span class="line"><span class="comment">        --&gt;</span></span><br><span class="line">        性别 <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"gender"</span> <span class="attr">value</span>=<span class="string">"male"</span> <span class="attr">id</span>=<span class="string">"male"</span> /&gt;</span><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"male"</span>&gt;</span>男<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"gender"</span> <span class="attr">value</span>=<span class="string">"female"</span> <span class="attr">id</span>=<span class="string">"female"</span>  <span class="attr">checked</span>=<span class="string">"checked"</span>/&gt;</span><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"female"</span>&gt;</span>女<span class="tag">&lt;/<span class="name">label</span>&gt;</span> </span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--多选框 type="checkbox" </span></span><br><span class="line"><span class="comment">        --&gt;</span></span><br><span class="line">        爱好 <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">""</span> /&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">""</span>  <span class="attr">disabled</span>=<span class="string">"disabled"</span>/&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">""</span> <span class="attr">checked</span>=<span class="string">"checked"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--下拉列表&lt;select&gt;  列表项&lt;option&gt;</span></span><br><span class="line"><span class="comment">    下拉列表的name属性需要指定给select，而value属性需要指定给option</span></span><br><span class="line"><span class="comment">    可以通过在option中添加selected="selected"来将选项设置为默认选中</span></span><br><span class="line"><span class="comment">    </span></span><br><span class="line"><span class="comment">    当为select添加一个multiple="multiple"，则下拉列表变为一个可多选的下拉列表</span></span><br><span class="line"><span class="comment">    --&gt;</span></span><br><span class="line">    </span><br><span class="line">    喜欢的动漫：</span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">name</span>=<span class="string">"cartoon"</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">        <span class="comment">&lt;!--在select中可以使用optgroup对选项进行分组，可以通过label属性来指定分组的名字--&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">optgroup</span> <span class="attr">label</span>=<span class="string">"日漫"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"hy"</span>&gt;</span>火影<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"hzw"</span>&gt;</span>海贼王<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"kn"</span>&gt;</span>柯南<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">optgroup</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">optgroup</span> <span class="attr">label</span>=<span class="string">"国漫"</span>&gt;</span></span><br><span class="line">        ......</span><br><span class="line">        <span class="tag">&lt;/<span class="name">optgroup</span>&gt;</span></span><br><span class="line">        </span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 提交按钮 type="submit"</span></span><br><span class="line"><span class="comment">    可以将表单中的信息提交给服务器</span></span><br><span class="line"><span class="comment">    在提交按钮中可以通过value属性来指定按钮上的文字</span></span><br><span class="line"><span class="comment">    --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"提交"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">   <span class="comment">&lt;!--重置按钮type="reset"</span></span><br><span class="line"><span class="comment">   点击重置按钮以后表单中内容将会恢复为默认值</span></span><br><span class="line"><span class="comment">   --&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"reset"</span> /&gt;</span></span><br><span class="line">   </span><br><span class="line">   <span class="comment">&lt;!--普通按钮：type="button"</span></span><br><span class="line"><span class="comment">   这个按钮没有任何功能，只能被点击（一般用来调用JavaScript）</span></span><br><span class="line"><span class="comment">   --&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">value</span>=<span class="string">"按钮"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">&lt;!-- 按钮：&lt;button&gt; </span></span><br><span class="line"><span class="comment">  当设置了type属性，与input设置的按钮功能一致，更推荐使用</span></span><br><span class="line"><span class="comment">  --&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span>提交<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"reset"</span>&gt;</span>重置<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span>&gt;</span>按钮<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-8-框架集："><a href="#2-8-框架集：" class="headerlink" title="2.8 框架集："></a>2.8 框架集：</h2><p>框架集和内联框架的作用类似，都是用于在一个页面中引入其他的外部的页面，框架集可以同时引入多个页面，而内联框架只能引入一个。（都只能用于引入其他页面，没有其他作用）</p>
+<p>在h5标准中，推荐使用框架集，而不使用内联框架。                 </p>
+<p><strong>注意frameset不能和body出现在同一个页面中。</strong><br>属性：<br>rows，指定框架一行一行的排列<br>cols， 指定框架一列一列的排列<br>这两个属性frameset必须选择一个，并且需要在属性中指定每一部分所占的大小</p>
+<p>在frameset中使用frame子标签来指定要引入的页面<br>引入几个页面就写几个frame（自结束标签）</p>
+<p>frameset中也可以再嵌套frameset。</p>
+<p>frameset和iframe一样，它里边的内容都不会被搜索引擎所检索，且我们每单独加载一个页面，浏览器就需要重新发送一次请求，用户的体验比较差。如果非得用（如公司内部网站）建议使用frameset而不使用iframe。 </p>
+<h2 id="2-9-图片-png兼容IE问题-："><a href="#2-9-图片-png兼容IE问题-：" class="headerlink" title="2.9 图片(png兼容IE问题)："></a>2.9 图片(png兼容IE问题)：</h2><p>在IE6中对图片格式png24支持度不高，<br>如果使用的图片格式是png24，则会导致透明效果无法正常显示。</p>
+<p>解决方法：<br>1.可以使用png8来代替png24，即可解决问题，但是使用png8代替png24以后，图片的清晰图会有所下降<br>2.使用JavaScript来解决该问题，需要向页面中引入一个外部的JavaScript文件</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">" "</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="actionscript">      DD_belatedPNG.fix(<span class="string">"img"</span>);</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">vuejs</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">安装</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/04/22/HTML学习笔记2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2020/04/22/CSS学习笔记2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          CSS学习笔记2
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2019/12/19/进制/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">进制</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-HTML简介："><span class="toc-number">1.</span> <span class="toc-text">1. HTML简介：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-HTML语法："><span class="toc-number">2.</span> <span class="toc-text">2. HTML语法：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-标签："><span class="toc-number">2.1.</span> <span class="toc-text">2.1 标签：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-文档流"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 文档流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-属性："><span class="toc-number">2.3.</span> <span class="toc-text">2.3 属性：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-乱码："><span class="toc-number">2.4.</span> <span class="toc-text">2.4 乱码：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5-列表："><span class="toc-number">2.5.</span> <span class="toc-text">2.5 列表：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-6-表格："><span class="toc-number">2.6.</span> <span class="toc-text">2.6 表格：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-7-表单："><span class="toc-number">2.7.</span> <span class="toc-text">2.7 表单：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-8-框架集："><span class="toc-number">2.8.</span> <span class="toc-text">2.8 框架集：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-9-图片-png兼容IE问题-："><span class="toc-number">2.9.</span> <span class="toc-text">2.9 图片(png兼容IE问题)：</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2020/04/22/HTML学习笔记2/",
+  owner: 'clownna',
+  repo: 'clownna.github.io',
+  oauth: {
+    client_id: 'a18b4b021b17b5550034',
+    client_secret: 'bfccd9e5bcc60e97d3d9ade0c3104011aea10973',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
@@ -235,9 +535,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
@@ -297,11 +597,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+                <a href="javascript:void(0)" class="js-tag color4">BOM</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -309,19 +605,43 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">CSS</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">vuejs</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">安装</a>
+                <a href="javascript:void(0)" class="js-tag color4">DOM</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">HTML</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">JSON</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Markdown</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">less</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">vue</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">前端</a>
               </li>
              
               <li class="article-tag-list-item">
